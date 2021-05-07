@@ -51,6 +51,13 @@ The following properties can be configured:
 
 ## For Developers
 
+For Module to work you will need to change your python path in the node_helper.js file
+change the pythonPath variable in options of the runPython function to your python env path
+
+Python dependencies:
+random, json, sys, os, numpy, torch, torch.nn, torch.utils.data, nltk, nltk.stem.portet
+
+
 To use MMM-OTIS in your module you have to send a socket notification like this `self.sendNotification("REPLY_TO_TEXT", "hello");`.
 
 It will reply with a notification like this: `this.sendNotification("MMM-TTS", text);` and then you can run the answer through whichever module you use
