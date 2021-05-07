@@ -1,0 +1,13 @@
+{
+  "arch": "x86_64",
+  "build": "h1de35cc_3",
+  "build_number": 3,
+  "depends": [],
+  "license": "zlib",
+  "license_family": "Other",
+  "name": "zlib",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1542815100324,
+  "version": "1.2.11"
+}

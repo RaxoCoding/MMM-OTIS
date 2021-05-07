@@ -1,0 +1,9 @@
+bin/python.app
+bin/pythonw
+python.app/Contents/Info.plist
+python.app/Contents/MacOS/python
+python.app/Contents/PkgInfo
+python.app/Contents/Resources/empty.lproj
+python.app/Contents/Resources/qt_menu.nib/classes.nib
+python.app/Contents/Resources/qt_menu.nib/info.nib
+python.app/Contents/Resources/qt_menu.nib/keyedobjects.nib

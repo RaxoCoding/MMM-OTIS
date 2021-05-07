@@ -1,0 +1,69 @@
+# This file created by conda-build 3.20.3
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/64c2ed32-fc0b-4fd3-4608-c85bd13ee080/volume/combined_recipe, last modified Tue Oct  6 10:53:37 2020
+# ------------------------------------------------
+
+package:
+    name: setuptools
+    version: 50.3.0
+source:
+    patches:
+        - 0001-Remove-exact-pinning-on-certifi-and-wincertstore.patch
+        - 0002-disable-downloads-inside-conda-build.patch
+    sha256: ff35597b0df84df22f139ce5f94ba0d1536876829a0ec777eba906496ccb6167
+    url: https://github.com/pypa/setuptools/archive/v50.3.0.tar.gz
+build:
+    entry_points:
+        - easy_install = setuptools.command.easy_install:main
+    number: '1'
+    string: py38h0dc7051_1
+requirements:
+    host:
+        - ca-certificates 2020.7.22 0
+        - certifi 2020.6.20 py38_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 h1de35cc_1
+        - libffi 3.3 hb1e8313_2
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1h haf1e3a3_0
+        - python 3.8.5 h26836e1_1
+        - readline 8.0 h1de35cc_0
+        - sqlite 3.33.0 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - certifi >=2016.9.26
+        - python >=3.8,<3.9.0a0
+test:
+    commands:
+        - easy_install --help
+    imports:
+        - easy_install
+        - pkg_resources
+        - setuptools
+about:
+    description: 'Setuptools is a fully-featured, actively-maintained, and stable
+        library
+
+        designed to facilitate packaging Python projects.
+
+        '
+    dev_url: https://github.com/pypa/setuptools
+    doc_source_url: https://github.com/pypa/setuptools/tree/master/docs
+    doc_url: http://pythonhosted.org/setuptools/
+    home: https://github.com/pypa/setuptools
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: Download, build, install, upgrade, and uninstall Python packages
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jjhelmus
+        - mingwandroid
+        - msarahan
+        - nicoddemus
+        - ocefpaf

@@ -1,0 +1,6 @@
+{
+  "c_compiler": "clang",
+  "c_compiler_version": "10",
+  "tk": "8.6",
+  "zlib": "1.2"
+}

@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "h0a44026_1",
+  "build_number": 1,
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "license": "Custom",
+  "name": "libffi",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1587589608123,
+  "version": "3.3"
+}

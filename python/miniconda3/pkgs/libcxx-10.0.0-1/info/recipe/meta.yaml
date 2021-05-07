@@ -1,0 +1,40 @@
+# This file created by conda-build 3.18.11
+# ------------------------------------------------
+
+package:
+    name: libcxx
+    version: 10.0.0
+source:
+    -   patches: null
+        sha256: 270f8a3f176f1981b0f6ab8aa556720988872ec2b48ed3b605d0ced8d09156c7
+        url: https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.0/libcxx-10.0.0.src.tar.xz
+build:
+    ignore_run_exports:
+        - libstdcxx-ng
+    missing_dso_whitelist:
+        - /usr/lib/libc++abi.dylib
+    noarch: false
+    number: '1'
+    string: '1'
+test:
+    files:
+        - compile_test.sh
+        - test_sources
+    requires:
+        - clang
+about:
+    home: http://llvm.org/
+    license: Apache-2.0 WITH LLVM-exception
+    license_family: Apache
+    license_file: LICENSE.TXT
+    summary: LLVM C++ standard library
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - SylvainCorlay
+        - beckermr
+        - inducer
+        - isuruf
+        - jakirkham
+        - timsnyder

@@ -1,0 +1,39 @@
+{
+  "paths": [
+    {
+      "_path": "include/yaml.h",
+      "path_type": "hardlink",
+      "sha256": "de39c9fc2b2c8584775e6d0dc0f13c8e778ceba47d419cff9d85465ca35d6954",
+      "size_in_bytes": 54439
+    },
+    {
+      "_path": "lib/libyaml-0.2.dylib",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/5fb26cea-7158-4943-4360-30d0164e4e2d/volume/yaml_1593116121024/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "636b21da57b056ee7ecf71efca9b8870fb99c2ff72239560889a7a4a9f495ce5",
+      "size_in_bytes": 129892
+    },
+    {
+      "_path": "lib/libyaml.a",
+      "path_type": "hardlink",
+      "sha256": "c430aa905ddeecdd09cf0e333e045d454487d3962a5030024e8f59cb9d0f88a2",
+      "size_in_bytes": 149152
+    },
+    {
+      "_path": "lib/libyaml.dylib",
+      "path_type": "softlink",
+      "sha256": "636b21da57b056ee7ecf71efca9b8870fb99c2ff72239560889a7a4a9f495ce5",
+      "size_in_bytes": 129892
+    },
+    {
+      "_path": "lib/pkgconfig/yaml-0.1.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "ccaa923d9a666534b8b05bd03b38e0ce1f92ee3ccf4e2c0aad93b29f19db613f",
+      "size_in_bytes": 240
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,68 @@
+# This file created by conda-build 3.20.3
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/919652a4-9921-4726-6960-21b357cebc42/volume/combined_recipe, last modified Thu Oct  1 10:28:17 2020
+# ------------------------------------------------
+
+package:
+    name: lz4-c
+    version: 1.9.2
+source:
+    fn: lz4-1.9.2.tar.gz
+    patches:
+        - patches/0001-Add-WindowsTargetPlatformVersion-of-10.0-and-lz4-exe.1.patch
+        - patches/0001-Add-WindowsTargetPlatformVersion-of-10.0-and-lz4-exe.2.patch
+    sha256: 658ba6191fa44c92280d4aa2c271b0f4fbc0e34d249578dd05e50e76d0e5efcc
+    url: https://github.com/lz4/lz4/archive/v1.9.2.tar.gz
+build:
+    number: '3'
+    run_exports:
+        - lz4-c >=1.9.2,<1.10.0a0
+    string: h79c402e_3
+requirements:
+    build:
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - clangxx_osx-64 10.0.0 h05bbb7f_1
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libllvm10 10.0.0 h21ff451_2
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_2
+        - make 4.2.1 h3efe00b_1
+        - patch 2.7.6 h1de35cc_1001
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - libcxx 10.0.0 1
+    run:
+        - libcxx >=10.0.0
+about:
+    description: 'LZ4 is lossless compression algorithm, providing compression speed
+        at 400
+
+        MB/s per core (0.16 Bytes/cycle). It features an extremely fast decoder,
+
+        with speed in multiple GB/s per core (0.71 Bytes/cycle). A high compression
+
+        derivative, called LZ4_HC, is available, trading customizable CPU time for
+
+        compression ratio. LZ4 library is provided as open source software using a
+
+        BSD license.
+
+        '
+    home: https://www.lz4.org
+    license: BSD-2-Clause
+    license_file: lib/LICENSE
+    summary: Extremely Fast Compression algorithm
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mingwandroid
+        - rmax
+        - wesm
+        - xhochy

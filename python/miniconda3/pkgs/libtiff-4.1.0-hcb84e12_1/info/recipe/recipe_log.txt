@@ -1,0 +1,676 @@
+commit 9de2af4f3b51c96541af88b0c39fc7d6dc3cf1a2
+Merge: da1a9bc 749fa0e
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Nov 4 08:37:19 2019 -0500
+
+    libtiff v4.1.0 (#43)
+    
+    libtiff v4.1.0
+
+commit 749fa0e709193577ee83f30fdb4aee0bc73edde1
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Nov 4 07:45:29 2019 -0500
+
+    remove patch
+
+commit c22da661cbd1c874b6faf539f8d4e467c7cfd2d5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Nov 3 23:16:23 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit 842142851115e2c931a3a419796f2f6181d62357
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Nov 3 23:15:51 2019 +0000
+
+    updated v4.1.0
+
+commit da1a9bc9a13b6cbdc10258ecd42848a3a0099360
+Merge: a95c2d7 564176f
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Oct 17 09:54:49 2019 -0300
+
+    Rebuild for zstd 1.4.30 (#42)
+    
+    Rebuild for zstd 1.4.30
+
+commit 564176f0fe3c7fadf0598f13c155eeab17a08a0e
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Thu Oct 17 13:41:04 2019 +0200
+
+    Build with ninja on Windows
+
+commit 8e82c8f4c302db3fd7ea8883a5b9da71450fb47f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Oct 14 20:22:44 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.10, conda-smithy 3.6.0, and conda-forge-pinning 2019.10.11
+
+commit 12f9836e15e5de3733fd5b21ce48608e25160322
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Oct 14 20:22:20 2019 +0000
+
+    bump build number
+
+commit a95c2d7755fedad6fc1cc81ba3552bcd19a3c4e5
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:30:34 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 42909a0f76090690dfe2026ce6e266a00fea198b
+Merge: a4d8c3e 815b3ee
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri May 31 14:27:08 2019 -0300
+
+    Rebuild for zstd-1.4.0 (#40)
+    
+    Rebuild for zstd-1.4.0
+
+commit 815b3ee35c47f23d8cc489fa9926fd8d5780081b
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri May 31 13:43:50 2019 -0300
+
+    MNT: Re-rendered with conda-build 3.18.2, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.31
+
+commit a83b6c829839e374338ab2f7c43b0c4c9725d78e
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri May 31 13:33:56 2019 -0300
+
+    Update meta.yaml
+
+commit 6762c8042aa7e6aed2cd4b4f1b41fc12308e3ca5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri May 31 15:41:51 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.2, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.31
+
+commit 8afd0f0c3db819fd0cadd9647d3af44c85feed28
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri May 31 15:41:38 2019 +0000
+
+    bump build number
+
+commit a4d8c3ee5e3865650fbbed3d10182caa7a070868
+Merge: 6bc1d3e ccd39a0
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Sun Mar 10 22:10:18 2019 -0500
+
+    Merge pull request #39 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition1_arch
+    
+    Arch Migrator
+
+commit ccd39a0783387e4e0917856f60a43883ad0b605f
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Mar 11 02:45:32 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.10
+
+commit 4539b54dcd4e5da482d78c131114c5650028e775
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 5 13:43:27 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.04
+
+commit 30230ee2696f5e0739fface9dae7aa9d34dbde3b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 5 13:43:15 2019 +0000
+
+    bump build number
+
+commit 6bc1d3e06ea1793816c412a80feddf9c8d574bd7
+Merge: c20b01a 0bf614c
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Jan 25 16:05:42 2019 -0200
+
+    Merge pull request #38 from jschueller/xz_zstd
+    
+    Enable xz, zstd
+
+commit 0bf614c53aab7f60646364696bea2080f438a2ee
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Fri Jan 25 17:26:38 2019 +0100
+
+    Dummy change
+
+commit baa097365a37c18553706dde8dac9ff2f9728c2b
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Jan 25 16:20:37 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.7, conda-smithy 3.2.9, and conda-forge-pinning 2019.01.21
+
+commit 7367498d5e519394a8da8fd1e6c3e36095c45b8c
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Fri Jan 25 17:19:11 2019 +0100
+
+    Enable xz, zstd
+
+commit c20b01a33d7d186c3458864b2526b1d618491c36
+Merge: 50c0920 2eca40d
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Dec 12 17:04:24 2018 -0200
+
+    Merge pull request #36 from mingwandroid/master
+    
+    Re-add patch for CVE-2017-11613, put Windows DLL name back to tiff.dl…
+
+commit 2eca40d11210071f1125e630026d2d427eb28c66
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Dec 12 12:23:57 2018 -0600
+
+    Address feedback re: SHLIB_EXT
+
+commit 5e5b19375b651619248dfbf1482ec79ae06676ef
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Dec 11 23:13:17 2018 -0600
+
+    Re-add patch for CVE-2017-11613, put Windows DLL name back to tiff.dll, providing libtiff.dll too for compat.
+
+commit 50c092005e85dd2d17b6750006e3f76eee3c6887
+Merge: 4d53c2e f49de0f
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Dec 3 13:02:24 2018 -0200
+
+    Merge pull request #34 from regro-cf-autotick-bot/4.0.10
+    
+    libtiff v4.0.10
+
+commit f49de0f0d2237048410b54e2d1c4d9e487a56450
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Dec 2 21:58:32 2018 -0200
+
+    add debian patches
+
+commit e1fea34b1949e8efa7e817775b2afa400e1f1ee6
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Tue Nov 27 16:15:18 2018 -0200
+
+    drop all patches
+
+commit fefa9fb3dab0f35ab23b093625a9cf514d66a7a0
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 10 16:13:31 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.11.9
+
+commit 4e1f1b25e8e30a7f611318e472df871f8595b012
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 10 16:13:26 2018 +0000
+
+    updated v4.0.10
+
+commit 4d53c2eccf393bae9758e1896cee3387d71df0bb
+Merge: c48f2a9 68dac70
+Author: Björn Grüning <bjoern@gruenings.eu>
+Date:   Fri Sep 14 09:57:53 2018 +0200
+
+    Merge pull request #33 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+commit 68dac708b4dc5262de112e7a9fe04f5042a2bccf
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 13 20:12:04 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.11
+
+commit 905282c988e7d95bf8c3efa6a21b97aa18ae4dcd
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Sep 13 20:11:56 2018 +0000
+
+    bump build number
+
+commit c48f2a9327c72c53817c807a0e193e066ffffe56
+Merge: bfc476d 2f24fed
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Sep 3 08:41:06 2018 -0300
+
+    Merge pull request #31 from ocefpaf/remove_la
+    
+    Remove la
+
+commit 2f24fed8c1c4028865c9f65696c9e2f9414cc98d
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Sep 2 21:02:55 2018 -0300
+
+    MNT: Re-rendered with conda-smithy 3.1.12.post.dev2 and pinning 2018.08.31
+
+commit 15cd1050e8efcffa46c2c733bc7e40036fe39928
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Sep 2 21:02:53 2018 -0300
+
+    remove .la
+
+commit bfc476d0efeb66133ca080af1483144420d92012
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:09:49 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 0052bf3e034f96e68d9a50cee899eb4c0b617d72
+Merge: 6bad976 163cc82
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Jul 1 07:40:00 2018 -0300
+
+    Merge pull request #30 from ocefpaf/update_recipe
+    
+    update recipe
+
+commit 163cc82c7c83a036a1f2d181f9688ad9a7399ec4
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Jun 30 18:22:04 2018 -0300
+
+    update recipe
+
+commit 6bad976686885a6a448936a2f83cebbd7bda14e6
+Merge: 71c86f4 02cc51c
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Jun 24 08:14:56 2018 -0300
+
+    Merge pull request #29 from regro-cf-autotick-bot/compiler_migration2
+    
+    Migrate to Jinja2 compiler syntax
+
+commit 02cc51c868d369f93e8134ec90132363ba9d4c81
+Author: Travis CI User <travis@example.org>
+Date:   Sun Jun 24 05:18:26 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.19
+
+commit 5ddc658e706d882e45f4c1a46b5aab87a3d262fa
+Author: Travis CI User <travis@example.org>
+Date:   Sun Jun 24 05:18:21 2018 +0000
+
+    migrated to Jinja2 compiler syntax build
+
+commit 71c86f4a4a7e19228328aad69e0cf51e2f637f83
+Merge: 83f3556 9a93b72
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Nov 24 17:56:57 2017 -0200
+
+    Merge pull request #28 from ocefpaf/update_to_4.0.9
+    
+    update to 4.0.9
+
+commit 9a93b727fb469f30d5f7e47152e61b8dbb54a295
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Nov 24 15:36:59 2017 -0200
+
+    update to 4.0.9
+
+commit 83f3556b4c2b0395beca7494157606417ab655da
+Merge: ab129b5 b417b7b
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Nov 5 07:38:06 2017 -0200
+
+    Merge pull request #27 from ocefpaf/update_4.0.8
+    
+    Update 4.0.8
+
+commit ab129b524e35d93fbafddf02d74baa32de5250e7
+Merge: b327387 0f33ae8
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Nov 5 07:35:31 2017 -0200
+
+    Merge pull request #26 from ocefpaf/pin_zlib_1.2.11
+    
+    Pin zlib 1.2.11
+
+commit b417b7be75fa0a211c9ea76ae14afe937e12976f
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Nov 4 20:52:54 2017 -0200
+
+    update to 4.0.8
+
+commit 0f33ae82211e9575a817807a62e8d54e2fd54992
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Nov 4 20:49:05 2017 -0200
+
+    pin zlib 1.2.11
+
+commit 10b666fe48e5f7a3973e5d6b6b759b676776fdb5
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sat Nov 4 20:49:03 2017 -0200
+
+    rerender
+
+commit b327387ad604367e6dbcba305e3d8d2c1d2b19ff
+Merge: bb33dcf 9cf0f9b
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Sep 23 22:20:15 2017 -0400
+
+    Merge pull request #24 from jakirkham-feedstocks/release_4.0.7
+    
+    Release 4.0.7
+
+commit 9cf0f9b8a0bf6d0fe67a28fcee27346f2de72bad
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Sep 23 19:37:18 2017 -0400
+
+    Release 4.0.7
+
+commit bb33dcf595fa6d36430b22089fc0e146eb52a28b
+Merge: 016b4e0 ae17878
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Sep 23 19:34:01 2017 -0400
+
+    Merge pull request #25 from jakirkham-feedstocks/inc_license
+    
+    Include license file
+
+commit ae178788d210c6ad2b40ca796979eab6d6945cfe
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Sep 23 17:47:29 2017 -0400
+
+    Bump build number to 9
+    
+    Needed to include the license file
+
+commit f113637aadfe0f99d3ccf5f137053cfb8a869857
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Sep 23 17:47:14 2017 -0400
+
+    Package the license file
+
+commit c6dafc892c9832386af96adc370958830a833068
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Sep 23 17:38:29 2017 -0400
+
+    Template download URL with version
+
+commit 016b4e0cf30a46453188d3b98c5c465d6e76618e
+Merge: 5117d67 3ccd883
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Sep 23 15:24:43 2017 -0400
+
+    Merge pull request #23 from jakirkham-feedstocks/refresh_pinnings
+    
+    Refresh pinnings
+
+commit 3ccd8839fb96dc567a9ccb2b47f1963ec9be77cf
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Sep 23 14:21:42 2017 -0400
+
+    Bump build number to 8
+    
+    Needed to rebuild with the new zlib pinning.
+
+commit 63ed2d742afb873bcf6ab59e37b4ad9ba9bcdcb3
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Sep 23 14:20:58 2017 -0400
+
+    Update zlib pinning to 1.2.8
+    
+    This matches the current pinning spec in conda-forge.
+
+commit c4534cbde7dbd1a9bdecba60f455506ba424bc2e
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Sep 23 14:20:08 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit e8543aa40c4e305e36861ad191c3ed034fc73554
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Sep 23 14:18:34 2017 -0400
+
+    Skip builds with Windows Python 3.5
+    
+    Both Python 3.5 and Python 3.6 on Windows use VC 2015. So there is no
+    need to build for both cases. To keep things simple for when we upgrade,
+    just build with Python 3.6.
+
+commit 4fdabb1801a6c0a5486f15b11b65ddd6cd5f3c73
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Sep 23 14:17:40 2017 -0400
+
+    Handle Python 3.6 on Windows
+    
+    Make sure that Python 3.6 on Windows matches to VC 2015.
+
+commit 5117d6703d87843505f48be9a0bb332b2397515d
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:30:36 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 5eb65285fe9c040efce0a4631fdc304ab5dd8571
+Merge: fa62488 f24b15d
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Nov 2 06:31:50 2016 -0300
+
+    Merge pull request #18 from ocefpaf/refresh
+    
+    Refresh
+
+commit f24b15dbee76175b0f1b4eda959132a96eaeb970
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Nov 1 17:52:30 2016 -0300
+
+    Fix metadata and download URL
+
+commit 8cdcaafd64f14098a076d2cd5ac00aa6efa57448
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Nov 1 17:49:07 2016 -0300
+
+    rerender
+
+commit fa62488dfcaa34ef4f9731940758474bf40144e8
+Merge: 25c9a54 d6de72c
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Thu Jul 7 13:47:15 2016 +0100
+
+    Merge pull request #16 from ocefpaf/update_pin
+    
+    Update xz pinning
+
+commit d6de72c78ba9aad6cdb44f2f9c843efa77ecba3a
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Jul 4 11:06:09 2016 -0300
+
+    Update xz pinning
+
+commit 25c9a54ede2e3bdcd3374a89e998e8d67cbfd158
+Merge: 3c896a1 25125cb
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Jun 29 09:31:33 2016 -0400
+
+    Merge pull request #15 from gillins/master
+    
+    remove symlinks
+
+commit 25125cbcbeddb9f8f93727b195a9da24dc980886
+Author: Sam Gillingham <gillingham.sam@gmail.com>
+Date:   Wed Jun 29 11:28:23 2016 +1000
+
+    revert build number increase since package wasn't actually broken in this case
+
+commit 18943c2d416bd3e3c5061c78db365508cc1b548b
+Author: Sam Gillingham <gillingham.sam@gmail.com>
+Date:   Wed Jun 29 08:18:49 2016 +1000
+
+    remove symlinks
+
+commit 3c896a1a231571483c2d7c351eb6e67662f806b9
+Merge: a3a4e74 cd27561
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Jun 28 07:04:59 2016 -0300
+
+    Merge pull request #14 from gillins/master
+    
+    Add zlib and jpeg to Windows and use toolchain
+
+commit cd2756108229b5e169e628faba9efc7fc83379f9
+Author: Sam Gillingham <gillingham.sam@gmail.com>
+Date:   Tue Jun 28 10:21:12 2016 +1000
+
+    Use the toolchain
+
+commit f7d5cae90426157eb62cb6847bdab3c439314d95
+Author: Sam Gillingham <gillingham.sam@gmail.com>
+Date:   Tue Jun 28 10:18:01 2016 +1000
+
+    add support for zlib and jpeg under Windows
+
+commit a3a4e7497013943bbfb57ac10947269351d4e7fb
+Merge: 204c685 8bd99dd
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat May 14 08:54:56 2016 -0300
+
+    Merge pull request #11 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+commit 8bd99dd2a3a28f7fffadcf2f4a85b64d580113cd
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat May 14 11:43:14 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+commit 204c6858eb3d4f0466f4584ec301cbff02696240
+Merge: 026933a 70a7ade
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Apr 25 11:48:12 2016 -0300
+
+    Merge pull request #10 from ocefpaf/pin_xz_5.0.5
+    
+    Pin xz 5.0.5
+
+commit 70a7ade55425e87ca0e5d81dc991a0c01703fdab
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Apr 25 11:13:16 2016 -0300
+
+    rerender
+
+commit 4d76b3b6e5234ed8d1cec68731ec0c937c4e5f98
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Apr 25 11:13:11 2016 -0300
+
+    Pin xz to 5.0*
+
+commit 026933ab7b1c5123783ce1dcc0d0062738137936
+Merge: c2b121b 9da6929
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Apr 20 13:41:48 2016 -0300
+
+    Merge pull request #9 from jakirkham/shadow_defaults_libtiff_4_0_6__1
+    
+    Shadow `defaults` `libtiff` so ours is used
+
+commit 9da69293422e7fdac5f2b88f2a90fe5e123239e6
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Apr 20 12:31:29 2016 -0400
+
+    recipe: Set build number to 1.
+    
+    This tricks the solver into not seeing the package in `defaults`
+    (libtiff 4.0.6 1). Instead it will see ours. However, this package will
+    never be used. In fact, the solver will see this and then see the newer
+    version (libtiff 4.0.6 3) and upgrade outright. This requires no
+    additional changes to any packages that expect to use our version of
+    `libtiff` beyond whatever pinning is already done.
+
+commit c2b121b292417c4a779cf394c9a0c848f5be2ca7
+Merge: 0a56268 d97bd28
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Apr 20 13:24:50 2016 -0300
+
+    Merge pull request #8 from jakirkham/add_jakirkham
+    
+    Add @jakirkham as a maintainer
+
+commit d97bd281a806faca61d4499e13726f52160874a1
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Apr 20 12:14:10 2016 -0400
+
+    recipe: Add @jakirkham as a maintainer. [ci skip]
+
+commit 0a56268eb03d13485466063a39927b2d36d82ddf
+Merge: 7dffbfc e180f6c
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Apr 19 17:22:02 2016 -0300
+
+    Merge pull request #6 from ocefpaf/activate_features
+    
+    Activate features
+
+commit e180f6cf4ad3c477894dc955a75b020487480560
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Apr 19 16:47:35 2016 -0300
+
+    Activate features
+
+commit 7dffbfc053d33c1bec4c1fad4b83bd866e9ccc0f
+Merge: ecadf4d 3db6f53
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Tue Apr 19 12:03:42 2016 +0100
+
+    Merge pull request #5 from conda-forge-admin/feedstock_version_pin_master
+    
+    MNT: Update pinned versions.
+
+commit 3db6f533a3363322a92eb9034b1ba34d80d6aeb5
+Author: conda-forge-admin <conda-forge@googlegroups.com>
+Date:   Tue Apr 19 11:37:54 2016 +0100
+
+    MNT: Updated some of the pinned versions
+
+commit ecadf4de8061cbd9fbd9dabc9830005950c937e9
+Merge: cde3828 19619e2
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Apr 18 11:33:56 2016 -0300
+
+    Merge pull request #3 from pelson/pin_jpeg
+    
+    Pin the version of jpeg.
+
+commit 19619e26064bdf6b9cebe902c8ae3b196d1269d4
+Author: Phil Elson <pelson.pub@gmail.com>
+Date:   Mon Apr 18 14:56:23 2016 +0100
+
+    Pin the version of libtiff.
+
+commit cde38280736f4bf08da87c07d61c67c2bf92477e
+Merge: 3e535a8 e9fc683
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Apr 18 10:06:54 2016 -0300
+
+    Merge pull request #2 from ocefpaf/rebuild_with_new_libzma
+    
+    Re-build with new libzma
+
+commit e9fc6835ff0df3cbb989edbae3b467aaff2ad23b
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Mon Apr 18 09:58:20 2016 -0300
+
+    Re-build with new libzma
+
+commit 3e535a8eac08b9bceb98ae9c16fabd91e711f92a
+Merge: 5cb777c 42922e2
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Apr 17 13:21:14 2016 -0300
+
+    Merge pull request #1 from ocefpaf/metadata
+    
+    Add stuarteberg...
+
+commit 42922e2b341cd15b21935ba29b961d5ccb5c175f
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Sun Apr 17 13:12:42 2016 -0300
+
+    add_maintainer
+
+commit 5cb777c2ae69d65c3dcd2e9dec979e0f40a8d49a
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Apr 17 16:03:01 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 892e5f28c1058c3c8a421cf45fe5212968af1bc5
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Apr 17 16:02:09 2016 +0000
+
+    Initial commit of the libtiff feedstock.

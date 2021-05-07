@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "haf1e3a3_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "ca-certificates"
+  ],
+  "features": "",
+  "fn": "openssl-1.1.1h-haf1e3a3_0.conda",
+  "legacy_bz2_md5": "a2b806a758358ddfdb3ab7331b06399d",
+  "license": "OpenSSL",
+  "license_family": "Apache",
+  "md5": "11e9d4c26290fb82d80b8b2e50a45a01",
+  "name": "openssl",
+  "platform": "darwin",
+  "sha256": "8c0e4fe618d2598d352c84365ec1c2bdd06b0a523543337d2ec0316b423c10ae",
+  "size": 2311827,
+  "subdir": "osx-64",
+  "timestamp": 1600781737900,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/openssl-1.1.1h-haf1e3a3_0.conda",
+  "version": "1.1.1h"
+}

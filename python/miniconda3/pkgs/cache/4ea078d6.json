@@ -1,0 +1,13 @@
+{
+  "_cache_control": "public, max-age=30",
+  "_mod": "Mon, 07 Jan 2019 15:22:15 GMT",
+  "_etag": "W/\"2262fb4965f18bb13db89d9dee01fcdb\"",
+  "repodata_version": 1,
+  "_url": "https://repo.anaconda.com/pkgs/r/noarch",
+  "info": {
+    "subdir": "noarch"
+  },
+  "packages.conda": {},
+  "removed": [],
+  "packages": {}
+}

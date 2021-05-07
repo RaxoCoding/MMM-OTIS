@@ -1,0 +1,12 @@
+{
+  "arch": "x86_64",
+  "build": "he5867d9_2",
+  "build_number": 2,
+  "depends": [],
+  "license": "Custom free software license",
+  "name": "jpeg",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1510202854203,
+  "version": "9b"
+}

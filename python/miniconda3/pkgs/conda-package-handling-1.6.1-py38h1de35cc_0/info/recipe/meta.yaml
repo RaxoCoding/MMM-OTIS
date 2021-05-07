@@ -1,0 +1,84 @@
+# This file created by conda-build 3.19.4-2+0.gaa46e26.dirty
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/1caa9cf6-943c-4e87-7f1a-4871a460e0d7/volume/rsync-recipes/conda-package-handling-1.6.1-python_3.8-on-osx, last modified Wed May  6 15:35:59 2020
+# ------------------------------------------------
+
+package:
+    name: conda-package-handling
+    version: 1.6.1
+source:
+    git_ref: 1.6.1
+    git_url: https://github.com/conda/conda-package-handling
+build:
+    entry_points:
+        - cph = conda_package_handling.cli:main
+    number: '0'
+    script: /opt/concourse/worker/volumes/live/1caa9cf6-943c-4e87-7f1a-4871a460e0d7/volume/conda-package-handling_1588797761919/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/python
+        -m pip install . --no-deps -vv
+    string: py38h1de35cc_0
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_18
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+    host:
+        - _libarchive_static_for_cph 3.3.3 h190e6e7_0
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.1 py38_0
+        - cython 0.29.17 py38h0a44026_0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.3 h0a44026_1
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - pip 20.0.2 py38_1
+        - python 3.8.2 hf48f09d_13
+        - readline 8.0 h1de35cc_0
+        - setuptools 46.1.3 py38_0
+        - sqlite 3.31.1 h5c1f38d_1
+        - tk 8.6.8 ha441bb4_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.8,<3.9.0a0
+        - six
+        - tqdm
+test:
+    commands:
+        - pytest tests
+    imports:
+        - conda_package_handling
+        - conda_package_handling.archive_utils_cy
+    requires:
+        - mock
+        - pytest
+        - pytest-cov
+        - pytest-mock
+    source_files:
+        - tests
+about:
+    home: https://github.com/conda/conda-package-handling
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file:
+        - LICENSE
+        - static_deps_licenses/bzip2.txt
+        - static_deps_licenses/libarchive.txt
+        - static_deps_licenses/libiconv.txt
+        - static_deps_licenses/zlib.txt
+        - static_deps_licenses/zstd.txt
+    summary: Create and extract conda packages of various formats
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jjhelmus
+        - msarahan

@@ -1,0 +1,80 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/17429dae-7d45-4316-46bf-29c7589a5c16/volume/rsync-recipes/libtiff-4.1.0-on-osx, last modified Mon Jun  1 14:09:55 2020
+# ------------------------------------------------
+
+package:
+    name: libtiff
+    version: 4.1.0
+source:
+    patches:
+        - patches/0001-CVE-2017-11613_part1.patch
+        - patches/0002-CVE-2017-11613_part2.patch
+        - patches/fix_TIFFReadRawStrip_man_page_typo.patch
+    sha256: 5d29f32517dadb6dbcd1255ea5bbc93a2b54b94fbf83653b4d65c7d6775b8634
+    url: https://download.osgeo.org/libtiff/tiff-4.1.0.tar.gz
+build:
+    missing_dso_whitelist:
+        - /opt/X11/lib/libGL.1.dylib
+        - /opt/X11/lib/libglut.3.dylib
+    number: '1'
+    run_exports:
+        - libtiff >=4.1.0,<5.0a0
+    string: hcb84e12_1
+requirements:
+    build:
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - clangxx_osx-64 10.0.0 h05bbb7f_1
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libllvm10 10.0.0 h21ff451_0
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_0
+        - make 4.2.1 h3efe00b_1
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - jpeg 9b he5867d9_2
+        - libcxx 10.0.0 1
+        - lz4-c 1.9.2 h0a44026_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+        - zstd 1.4.4 h1990bb4_3
+    run:
+        - jpeg >=9b,<10a
+        - libcxx >=10.0.0
+        - xz >=5.2.5,<6.0a0
+        - zlib >=1.2.11,<1.3.0a0
+        - zstd >=1.4
+        - zstd >=1.4.4,<1.4.5.0a0
+test:
+    commands:
+        - test -f ${PREFIX}/lib/libtiff.a
+        - test -f ${PREFIX}/lib/libtiffxx.a
+        - test -f ${PREFIX}/lib/libtiff${SHLIB_EXT}
+        - test -f ${PREFIX}/lib/libtiffxx${SHLIB_EXT}
+about:
+    description: 'This software provides support for the Tag Image File Format (TIFF),
+        a
+
+        widely used format for storing image data.
+
+        '
+    doc_url: http://www.libtiff.org/document.html
+    home: http://www.libtiff.org/
+    license: HPND
+    license_file: COPYRIGHT
+    summary: Support for the Tag Image File Format (TIFF).
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mingwandroid
+        - msarahan
+        - ocefpaf
+        - stuarteberg

@@ -1,0 +1,68 @@
+{% set version = "8.0.0" %}
+
+package:
+  name: pillow
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/P/Pillow/Pillow-{{ version }}.tar.gz
+  sha256: 59304c67d12394815331eda95ec892bf54ad95e0aa7bc1ccd8e0a4a5a25d4bf3
+
+build:
+  number: 0
+  skip: true  # [py==27]
+  ignore_run_exports:
+    - tk
+    - jpeg
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+  host:
+    - python
+    - pip
+    - setuptools
+    - zlib
+    - lcms2  # [not win]
+    - libtiff
+    - jpeg
+    - freetype
+    - tk
+  run:
+    - python
+    - jpeg
+    - zlib
+    - freetype
+    - libtiff
+    - olefile
+    - tk
+
+test:
+  imports:
+    - PIL
+    - PIL.Image
+    - PIL.ImageCms  # [not win]
+    - PIL._imaging
+    - PIL._imagingft
+    - PIL._imagingmath
+    - PIL._imagingmorph
+    - PIL._imagingtk  # [linux and not (arm or ppc64le)]
+
+about:
+  home: https://pillow.readthedocs.io
+  license: LicenseRef-PIL
+  license_file: LICENSE
+  summary: Pillow is the friendly PIL fork by Alex Clark and Contributors
+  description: |
+    Pillow is the friendly PIL fork. PIL is the Python Imaging Library,
+    adds image processing capabilities to your Python interpreter.
+  doc_url: http://pillow.readthedocs.io/en/4.2.x/
+  doc_source_url: https://github.com/python-pillow/Pillow/blob/4.2.x/docs/index.rst
+  dev_url: https://github.com/python-pillow/Pillow
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - patricksnape
+    - pelson
+    - ocefpaf

@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py38hc512035_1",
+  "build_number": 1,
+  "depends": [
+    "libffi >=3.3,<3.4.0a0",
+    "pycparser",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "license": "MIT",
+  "name": "cffi",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1588900471926,
+  "version": "1.14.0"
+}

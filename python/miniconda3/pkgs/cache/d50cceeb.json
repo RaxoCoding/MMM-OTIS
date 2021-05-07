@@ -1,0 +1,14 @@
+{
+  "_cache_control": "public, max-age=30",
+  "_mod": "Mon, 07 Jan 2019 15:22:15 GMT",
+  "_etag": "W/\"fb590f4b0c84bf5fe1b49b53efa8c209\"",
+  "_url": "https://repo.anaconda.com/pkgs/pro/osx-64",
+  "info": {
+    "arch": "x86_64",
+    "platform": "osx",
+    "subdir": "osx-64"
+  },
+  "packages.conda": {},
+  "removed": [],
+  "packages": {}
+}

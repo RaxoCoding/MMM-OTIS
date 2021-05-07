@@ -1,0 +1,21 @@
+{
+  "build": "hc338f04_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "yaml-0.1.7-hc338f04_2.conda",
+  "legacy_bz2_md5": "dab654341f57e56b615a678800262b0e",
+  "legacy_bz2_size": 82035,
+  "license": "MIT",
+  "md5": "b81de17ef79a83c497d0128e37461ae2",
+  "name": "yaml",
+  "sha256": "d1aaa7fba4215935537f19f217071bbb8ad75b7244220272ed59f159db0d972e",
+  "size": 68226,
+  "subdir": "osx-64",
+  "timestamp": 1510610700770,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/yaml-0.1.7-hc338f04_2.conda",
+  "version": "0.1.7"
+}

@@ -1,0 +1,1 @@
+["ninja", "setuptools", "cython", "cmake", "clangxx_osx-64 10.*", "clang_osx-64 10.*", "ripgrep"]

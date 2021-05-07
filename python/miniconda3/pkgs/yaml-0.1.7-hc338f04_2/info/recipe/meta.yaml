@@ -1,0 +1,56 @@
+# This file created by conda-build 3.0.29
+# meta.yaml template originally from:
+# /opt/concourse/volumes/live/92235883-397a-4ccb-4139-d1cd69a7a936/volume/rsync-recipes/yaml-0.1.7-on-osx, last modified Mon Nov 13 15:42:02 2017
+# ------------------------------------------------
+
+package:
+    name: yaml
+    version: 0.1.7
+source:
+    patches:
+        - CMakeLists.txt.patch
+    sha256: 8088e457264a98ba451a90b8661fcb4f9d6f478f7265d48322a196cec2480729
+    url: http://pyyaml.org/download/libyaml/yaml-0.1.7.tar.gz
+build:
+    number: '2'
+    run_exports:
+        - yaml >=0.1.7,<0.2.0a0
+    string: hc338f04_2
+requirements:
+    build:
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h6c06975_3
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libtool 2.4.6 hdb3952c_3
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+        - pkg-config 0.29.2 h4abdbbe_5
+test:
+    commands:
+        - test -f "${PREFIX}/include/yaml.h"
+        - test -f "${PREFIX}/lib/libyaml.a"
+        - test -f "${PREFIX}/lib/libyaml.dylib"
+about:
+    description: 'YAML is a human friendly data serialization standard for all programming
+
+        languages.
+
+        '
+    dev_url: https://github.com/yaml
+    doc_source_url: https://github.com/yaml/www.yaml.org/tree/master/docs
+    doc_url: http://www.yaml.org/spec/1.2/spec.html
+    home: http://pyyaml.org/wiki/LibYAML
+    license: MIT
+    summary: A C library for parsing and emitting YAML.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mingwandroid
+        - msarahan
+        - pelson

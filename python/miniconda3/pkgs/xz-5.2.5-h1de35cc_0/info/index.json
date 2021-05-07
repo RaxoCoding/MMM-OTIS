@@ -1,0 +1,12 @@
+{
+  "arch": "x86_64",
+  "build": "h1de35cc_0",
+  "build_number": 0,
+  "depends": [],
+  "license": "LGPL-2.1 and GPL-2.0",
+  "name": "xz",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1587011779036,
+  "version": "5.2.5"
+}

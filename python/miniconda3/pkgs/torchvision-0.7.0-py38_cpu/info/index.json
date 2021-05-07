@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py38_cpu",
+  "build_number": 0,
+  "depends": [
+    "numpy >=1.11",
+    "pillow >=4.1.1",
+    "python >=3.8,<3.9.0a0",
+    "pytorch 1.6.0"
+  ],
+  "license": "BSD",
+  "name": "torchvision",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1595638452056,
+  "version": "0.7.0"
+}

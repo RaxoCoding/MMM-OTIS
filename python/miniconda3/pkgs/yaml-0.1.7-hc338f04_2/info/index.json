@@ -1,0 +1,12 @@
+{
+  "arch": "x86_64",
+  "build": "hc338f04_2",
+  "build_number": 2,
+  "depends": [],
+  "license": "MIT",
+  "name": "yaml",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1510610700770,
+  "version": "0.1.7"
+}

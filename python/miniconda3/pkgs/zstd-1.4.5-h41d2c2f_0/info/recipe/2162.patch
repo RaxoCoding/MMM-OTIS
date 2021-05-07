@@ -1,0 +1,21 @@
+From b1dacd67c3003d8a25953ee427be129b850607ab Mon Sep 17 00:00:00 2001
+From: xantares <xantares09@hotmail.com>
+Date: Fri, 22 May 2020 12:54:22 +0200
+Subject: [PATCH] [cmake] Fix dll install location
+
+---
+ build/cmake/lib/CMakeLists.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/build/cmake/lib/CMakeLists.txt b/build/cmake/lib/CMakeLists.txt
+index 666da60c1..f38b8e157 100644
+--- a/build/cmake/lib/CMakeLists.txt
++++ b/build/cmake/lib/CMakeLists.txt
+@@ -163,6 +163,7 @@ install(TARGETS ${library_targets}
+     INCLUDES DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}"
+     ARCHIVE DESTINATION "${CMAKE_INSTALL_LIBDIR}"
+     LIBRARY DESTINATION "${CMAKE_INSTALL_LIBDIR}"
++    RUNTIME DESTINATION "${CMAKE_INSTALL_BINDIR}"
+     )
+ 
+ # uninstall target

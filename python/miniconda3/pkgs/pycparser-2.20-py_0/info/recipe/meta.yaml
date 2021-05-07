@@ -1,0 +1,63 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/pycparser-2.20-on-linux_64, last modified Tue Mar 17 14:52:33 2020
+# ------------------------------------------------
+
+package:
+    name: pycparser
+    version: '2.20'
+source:
+    fn: pycparser-2.20.tar.gz
+    sha256: 2d475327684562c3a96cc71adf7dc8c4f0565175cf86b6d7a404ff4c771f15f0
+    url: https://pypi.io/packages/source/p/pycparser/pycparser-2.20.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/pycparser_1584457079806/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/bin/python
+        -m pip install . -vvv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.1.1 0
+        - certifi 2019.11.28 py36_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20181209 hc058e9b_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_0
+        - openssl 1.1.1d h7b6447c_4
+        - pip 20.0.2 py36_1
+        - python 3.6.10 h0371630_0
+        - readline 7.0 h7b6447c_5
+        - setuptools 46.0.0 py36_0
+        - sqlite 3.31.1 h7b6447c_0
+        - tk 8.6.8 hbc83047_0
+        - wheel 0.34.2 py36_0
+        - xz 5.2.4 h14c3975_4
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+test:
+    imports:
+        - pycparser
+        - pycparser.ply
+about:
+    description: 'pycparser is a complete parser of the C language, written in pure
+        Python using the PLY parsing library.
+
+        It parses C code into an AST and can serve as a front-end for C compilers
+        or analysis tools.
+
+        '
+    dev_url: https://github.com/eliben/pycparser
+    home: https://github.com/eliben/pycparser
+    license: BSD 3-clause
+    license_file: LICENSE
+    summary: Complete C99 parser in pure Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - synapticarbors

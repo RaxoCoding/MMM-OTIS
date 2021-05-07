@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "h41d2c2f_0",
+  "build_number": 0,
+  "depends": [
+    "libcxx >=10.0.0",
+    "lz4-c >=1.9.2,<1.10.0a0",
+    "xz >=5.2.5,<6.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "zstd",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1593122610466,
+  "version": "1.4.5"
+}

@@ -1,0 +1,22 @@
+{
+  "build": "1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "libcxx-10.0.0-1.conda",
+  "legacy_bz2_md5": "1f4dca699e132460ff69e724d5fdf2a0",
+  "legacy_bz2_size": 1061757,
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "md5": "86574bfd5bcf4921237da41c07534cdc",
+  "name": "libcxx",
+  "sha256": "46570b28370dc4e11bb24ec26888d8068d83f5cb6482237beedd2c02ce235392",
+  "size": 778312,
+  "subdir": "osx-64",
+  "timestamp": 1589540290755,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libcxx-10.0.0-1.conda",
+  "version": "10.0.0"
+}

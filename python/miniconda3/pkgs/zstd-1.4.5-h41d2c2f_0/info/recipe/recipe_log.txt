@@ -1,0 +1,703 @@
+commit 9d9b1a851e47280cf2ab96ea873ed613d0a0f1c3
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Wed May 20 17:51:29 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit ac1db80994731ec85229aaa638690214bc1583bd
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon May 18 11:18:29 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 4516e280a3aad52d4b7adeab85e953f9bf5400b3
+Merge: 06bbd6e e1efaa6
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Sat Apr 11 08:21:01 2020 +0200
+
+    Merge pull request #39 from regro-cf-autotick-bot/rebuild-lz4_c192-0-1_h54930d
+    
+    Rebuild for lz4_c192
+
+commit e1efaa60dd8707cfbde480475f8a3ef502ea2054
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Apr 9 15:54:30 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.6.16, and conda-forge-pinning 2020.04.09
+
+commit 96f82f614cd324b2ec06c9468b5ff01754c7b783
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Apr 9 15:54:06 2020 +0000
+
+    Rebuild for lz4_c192
+
+commit 06bbd6edf6a1d1ec80c4a5347b013320adcc8897
+Merge: 359d5a7 5289738
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Thu Mar 19 08:19:21 2020 +0100
+
+    Merge pull request #38 from xhochy/azure-win
+    
+    Move to Azure for Win
+
+commit 52897380c5738faa16683c14fd860921be73a995
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Thu Mar 19 07:55:36 2020 +0100
+
+    Move to Azure for Win
+
+commit 359d5a766240806fb1817c9ad5e61af15b4198a3
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue Mar 3 06:15:55 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 4dccf69c032c639cac686d994dfc6cc3927a6414
+Merge: 4ef3e20 23a3a63
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Wed Nov 13 18:22:37 2019 +0100
+
+    Merge pull request #36 from robquant/windows_release_build
+    
+    Windows release build
+
+commit 23a3a63290dfe41da4ee59d28d664628c9dca237
+Author: Robert Franke <robert.franke@nirx.de>
+Date:   Wed Nov 13 16:23:47 2019 +0100
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.2, and conda-forge-pinning 2019.11.13
+
+commit ac5206a10639254bdfff4462faf2896d101751e2
+Author: Robert Franke <robert.franke@nirx.de>
+Date:   Wed Nov 13 15:57:03 2019 +0100
+
+    Bump the build number
+
+commit cfe288c8c63b613b0967b1adf1416c48ea919e95
+Author: Robert Franke <robert.franke@nirx.de>
+Date:   Wed Nov 13 15:51:09 2019 +0100
+
+    Make sure we build a Release config on Windows
+    
+    Ninja is a single-configuration generator so we have to statically
+    choose a build type when configuring
+
+commit 4ef3e201c297ad409312852a7c34ef0f83cf8a63
+Merge: 7198f66 d4bd07e
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Wed Nov 6 18:22:13 2019 +0100
+
+    Merge pull request #35 from regro-cf-autotick-bot/1.4.4
+    
+    zstd v1.4.4
+
+commit d4bd07e700a62ddfce54487081b26296af41ae4b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Nov 5 19:22:49 2019 +0000
+
+    updated v1.4.4
+
+commit 7198f6627eb9c57cb34f0f05f5220f7a73eea869
+Merge: 9403c67 63a2534
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Oct 14 19:49:54 2019 -0400
+
+    Merge pull request #32 from conda-forge-linter/conda_forge_admin_31
+    
+    MNT: rerender
+
+commit 63a2534a27943a5929438786870968dcb0b625c1
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Oct 14 22:57:24 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.6.0, and conda-forge-pinning 2019.10.11
+
+commit 9403c67605d5ebdfc4ad2468f8fbb723cea8a6c6
+Merge: d9460a6 72e90e1
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Mon Oct 14 14:57:56 2019 +0200
+
+    Merge pull request #30 from xhochy/cmake-build
+    
+    1.4.3 / use CMake on Win
+
+commit 72e90e12a1258b8651d6bc13fafb009fbda82000
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Wed Oct 9 20:40:33 2019 +0200
+
+    Update meta.yaml
+
+commit d0fe07a0324c7513aac2fc7a4e637e0d35ba92a4
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Tue Oct 8 18:44:34 2019 +0200
+
+    Use CMake/Ninja on Windows
+
+commit 48decb86b31df2d0168043c4bc093801efabcd05
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Tue Oct 8 13:14:22 2019 +0200
+
+    Update 0003 patch
+
+commit 94872e68d055b65e045d837478077382bc676820
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Oct 7 18:01:47 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.5.0, and conda-forge-pinning 2019.10.01
+
+commit d9460a6f62d7c4b162af36b0e9454833664f9c88
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Oct 2 16:56:14 2019 -0500
+
+    [ci skip] ***NO_CI*** Keep using appveyor.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit fdda85d234132e09d2e6b88f467cb5767200b251
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Aug 19 21:26:24 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.19
+
+commit 99954330b9e0e515491aad6d2b73388f25d5f780
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Aug 19 21:26:01 2019 +0000
+
+    updated v1.4.3
+
+commit ec4e0aeb682078bfa7c9f875835aa9af16975087
+Merge: dcc6866 c15ea84
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Tue Apr 30 18:02:31 2019 +0200
+
+    Merge pull request #25 from regro-cf-autotick-bot/1.4.0
+    
+    zstd v1.4.0
+
+commit c15ea841e928ec125792812bd75aa1a2a0f795d7
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Tue Apr 30 16:33:12 2019 +0200
+
+    Make def optional
+
+commit 92077908e00d4fe84b5398ee8c4d02d765b2a1cb
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Tue Apr 30 16:14:06 2019 +0200
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.04.25
+
+commit a8fdaaef353c0ec99c2fe82b44c169ac078d2783
+Author: Uwe L. Korn <uwe.korn@quantco.com>
+Date:   Tue Apr 30 16:13:41 2019 +0200
+
+    Only copy def if provided, not needed for usage
+
+commit 765a579825cf57ea5c8629244fab20ca23c7bd89
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Apr 16 23:30:47 2019 +0000
+
+    updated v1.4.0
+
+commit dcc6866f50d50eae2d0b8f3fff415c3e20a363ca
+Merge: e0b41aa 3cba5fb
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Tue Apr 16 19:50:01 2019 +0200
+
+    Merge pull request #24 from regro-cf-autotick-bot/rebuildlz4-c-1.8.30
+    
+    Rebuild for lz4-c-1.8.3
+
+commit 3cba5fb29753089088bd502ebedd885cfd70ce36
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Fri Apr 12 19:16:34 2019 +0200
+
+    Update meta.yaml
+
+commit 3b8cd7d9ced9bb9d44a91e760a44c6bc7a15aac8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Apr 12 15:35:18 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.2, and conda-forge-pinning 2019.04.12
+
+commit 4f01d1186bfaf2146f88be1d782795ca101ef043
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Apr 12 15:35:05 2019 +0000
+
+    bump build number
+
+commit e0b41aab0ee1fa9151df6d7f3f99ea6532fce67d
+Merge: 1ba0edd b8467c2
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Tue Mar 5 08:11:30 2019 -0500
+
+    Merge pull request #23 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition1_arch
+    
+    Arch Migrator
+
+commit b8467c2c43b6cb30a35844c41b5f737b52b36ebb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 5 05:33:05 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.04
+
+commit f2d23fbb2aa02d26a3f9a08104e8cad2491b5797
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 5 05:32:52 2019 +0000
+
+    bump build number
+
+commit 1ba0eddb73e7c57e2b2f584ef2f891701700963d
+Merge: 8a782ce 60a6e46
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Sat Jan 26 17:08:27 2019 +0100
+
+    Merge pull request #22 from wesm/remove-python-dependency
+    
+    Change lz4 dependency to lz4-c to break Python dependency
+
+commit 60a6e469d9964000823a214677cfec21c1088be6
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Jan 26 14:44:07 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.7, conda-smithy 3.2.10, and conda-forge-pinning 2019.01.21
+
+commit 6669b98366557e4e83fd9fbfc9a893c44a67d626
+Author: Wes McKinney <wesm+git@apache.org>
+Date:   Sat Jan 26 08:42:23 2019 -0600
+
+    Change lz4 dependency to lz4-c
+
+commit 8a782ce14caba3ffef708c31ddaf7ac695672a15
+Merge: bb4e0a3 09cdf66
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Fri Jan 11 16:06:43 2019 +0100
+
+    Merge pull request #19 from regro-cf-autotick-bot/1.3.8
+    
+    zstd v1.3.8
+
+commit 09cdf6619ef19cc49b5cb8090d32de7795cc519f
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Fri Jan 11 10:55:17 2019 +0100
+
+    Update meta.yaml
+
+commit f019b68e9688d2e7c83425e19595f3768db00abd
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Thu Jan 10 19:14:58 2019 +0100
+
+    Update meta.yaml
+
+commit bb4e0a3989c15dd85aab73e74b11125a1e7a4b2c
+Merge: 4274cf6 9849ec0
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Tue Jan 8 15:05:56 2019 +0100
+
+    Merge pull request #20 from hmaarrfk/patch-1
+    
+    don't use toolchain AR
+
+commit 9849ec034fe79527357b61eb77e2e2eaca3329d6
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Jan 7 16:53:04 2019 -0500
+
+    Update build.sh
+
+commit 2a2103a73a4ef7d2f2ca017c742e7152eb6bfaa2
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Jan 7 16:52:47 2019 -0500
+
+    use which to get the full path of AR
+
+commit d2a158a2c2601cf405c102fe25062df6730da400
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Jan 7 11:51:40 2019 -0500
+
+    build number
+
+commit b13463a6514d9b69a9e4aa0a1643f6cbf6871b21
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Jan 7 11:50:56 2019 -0500
+
+    don't use toolchain AR
+
+commit 3c667aae6ffb629f65fbe9ccb4e8b323c9d7717c
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Fri Dec 28 15:48:48 2018 +0100
+
+    Update meta.yaml
+
+commit 8f0e1a54795e2736257c407af27d6ddc8f831243
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Dec 27 21:13:40 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.18
+
+commit 1f66f5391385b47b1f8926ff0833668af54b291f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Dec 27 21:13:34 2018 +0000
+
+    updated v1.3.8
+
+commit 4274cf69a63d72c0dd337e669eaf640c823f50c4
+Merge: f4ad76e 0709108
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Wed Nov 7 09:35:18 2018 +0100
+
+    Merge pull request #18 from regro-cf-autotick-bot/1.3.7
+    
+    zstd v1.3.7
+
+commit 0709108888e6a71c7d9f263c940f3f3c6d43e325
+Author: Uwe L. Korn <xhochy@users.noreply.github.com>
+Date:   Wed Nov 7 09:15:34 2018 +0100
+
+    Update sha256
+
+commit 58e3e70f867921b22c029d4143bc2141790d118c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Nov 6 17:15:35 2018 +0000
+
+    updated v1.3.7
+
+commit f4ad76ed18a79baed3cd7dbe88b104be1e52a56d
+Merge: 8b799b5 852290d
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Tue Nov 6 08:27:31 2018 -0500
+
+    Merge pull request #15 from xhochy/rebuild
+    
+    Rebuild with Jinja2 compiler syntax and new compilers
+
+commit 852290d675e90199939db06074b579137fbe855e
+Author: Korn, Uwe <Uwe.Korn@blue-yonder.com>
+Date:   Sat Nov 3 11:01:01 2018 +0100
+
+    Add @xhochy as maintainer
+
+commit 9084116fd63856a38341c3ab20c35a4a409cc0ae
+Author: Korn, Uwe <Uwe.Korn@blue-yonder.com>
+Date:   Fri Nov 2 16:31:46 2018 +0100
+
+    Static windows lib is only built for VC 14+
+
+commit 478aecaaa7d33abad6146896952f598c8285f430
+Author: Korn, Uwe <Uwe.Korn@blue-yonder.com>
+Date:   Fri Nov 2 16:22:48 2018 +0100
+
+    Make CMAKE_INSTALL_LIBDIR relative to fix pkg-config
+
+commit 59b62216dc1ee5b94e1bbfe17c3757c92899beb7
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Wed Oct 31 08:39:26 2018 -0400
+
+    Update meta.yaml
+
+commit e1c72bc67c6ebc12c70f924f871391f283a4e594
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Wed Oct 31 08:23:08 2018 -0400
+
+    Update meta.yaml
+
+commit e28d8e0b76889708958a1ea5e4742f3cc150c568
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Tue Oct 30 23:26:26 2018 -0400
+
+    Update meta.yaml
+
+commit 77edd99d402a6dc7db2ff7ea21d3d59c201b2618
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Tue Oct 30 23:19:31 2018 -0400
+
+    Update meta.yaml
+
+commit 017e7fe70c8a8f45b9bbf3127a76516041ac6b75
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Tue Oct 30 23:11:52 2018 -0400
+
+    Update meta.yaml
+
+commit 324bbfe4e015b1c5d3bf7b887c552b2de1ea3384
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Oct 30 14:39:05 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.16
+
+commit 90cff77a378424492ae10afbcc11ff6a4bbc5a1f
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Tue Oct 30 10:38:27 2018 -0400
+
+    Update meta.yaml
+
+commit 7b23da7588e6a4da7d8af26bd4d039770c2f1295
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Thu Oct 18 11:22:27 2018 -0400
+
+    Update meta.yaml
+
+commit df0d835e5a6182960a7bc049587bbcd6ee408e76
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Thu Oct 18 11:21:20 2018 -0400
+
+    Update meta.yaml
+
+commit 69470643899a5ed73c974e5d63c60332659563fb
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Oct 18 13:33:18 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.16
+
+commit c37e1aa476933450bf110046312db0dc996f2631
+Merge: ebbb677 3029976
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Thu Oct 18 09:28:58 2018 -0400
+
+    Merge remote-tracking branch 'AnacondaRecipes/master' into rebuild
+
+commit 30299767226dbfc5af1e634a210159b190e0df5d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Thu Oct 18 11:28:02 2018 +0100
+
+    Fix VS2008 issues with library name (was zstdlib.dll)
+    
+    We cannot simply rename zstdlib.dll and zstdlib.lib to
+    libzstd.dll and libzstd.lib respectively because the
+    .lib embeds the .dll name in it.
+    
+    Instead the library is renamed from the get-go.
+
+commit ebbb677aa2954eb8ea66e3545ce99261c7e76cce
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Oct 12 20:37:13 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.11
+
+commit b661098d173b607e5701d36ac53d2f7e2f398e26
+Merge: bd92cc3 1f7f49c
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Oct 12 16:32:33 2018 -0400
+
+    Merge remote-tracking branch 'AnacondaRecipes/master' into rebuild
+    
+    # Conflicts:
+    #       recipe/build.sh
+    #       recipe/meta.yaml
+
+commit bd92cc30006ca45ef96165788ab4a660ddaa5b30
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 5 22:15:05 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.31
+
+commit 8d37b96b01c8f45d13694c272baedf8dde96db8b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 5 22:14:59 2018 +0000
+
+    bump build number
+
+commit 8b799b54a4e234b0e51006291c0556b3f7c134ce
+Merge: 8a66119 bcac3ef
+Author: Rolando (Max) Espinoza <rmax@users.noreply.github.com>
+Date:   Mon Sep 3 14:33:16 2018 -0300
+
+    Merge pull request #13 from jvolkening/pzstd
+    
+    enable pzstd build on Unices
+
+commit bcac3ef059e6025e96a98948ce57551581a231ce
+Author: jvolkening <jdv@base2bio.com>
+Date:   Sun Sep 2 12:47:13 2018 -0500
+
+    enable pzstd build on Unices
+
+commit 1f7f49c158413763a1cb334fca9c328bddbe03e0
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Wed Aug 15 01:43:02 2018 +0100
+
+    WIP: Fixing cmake build to emit pc files
+
+commit 8a66119e786f377fe462b535633182633e15bc5a
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 18:46:11 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit d1af459c1c462fe5cac6307109f43e8ee48248d6
+Author: Michael Sarahan <msarahan@gmail.com>
+Date:   Wed Apr 11 10:17:54 2018 -0500
+
+    cb3-ize
+
+commit c99c4a43a29fc5c13ca647cc70b3298d423ee619
+Merge: 0aedac1 899cfc7
+Author: Rolando (Max) Espinoza <rmax@users.noreply.github.com>
+Date:   Fri Mar 2 09:34:54 2018 -0300
+
+    Merge pull request #7 from dougalsutherland/1.3.3
+    
+    bump to 1.3.3
+
+commit 899cfc7e49ff3563cd280cf4ccaa3112730e40b3
+Author: Dougal J. Sutherland <dougal@gmail.com>
+Date:   Thu Mar 1 13:34:16 2018 +0000
+
+    bump to 1.3.3
+
+commit 0aedac1e912920ea5dbb78e66d3e821eefc0f7e3
+Merge: f728e40 9f78b33
+Author: Rolando (Max) Espinoza <rmax@users.noreply.github.com>
+Date:   Mon Jan 1 21:50:06 2018 -0400
+
+    Merge pull request #6 from Horta/master
+    
+    copy .dll to LIBRARY_BIN
+
+commit 9f78b33d25ec29809e48b8ad2450b933396dc7aa
+Author: Danilo Horta <danilo.horta@gmail.com>
+Date:   Mon Jan 1 23:47:41 2018 +0000
+
+    rename
+
+commit d0afda2e930eb22113c9d20cdad70e4f5edd3614
+Author: Danilo Horta <danilo.horta@gmail.com>
+Date:   Mon Jan 1 23:23:46 2018 +0000
+
+    copy libzstd
+
+commit b5174e6c14d7acce3d8f3ca26df8132f827719da
+Author: Danilo Horta <danilo.horta@gmail.com>
+Date:   Mon Jan 1 23:01:53 2018 +0000
+
+    prevent using zstdlib in .lib as to not confuse cmake
+
+commit 1635adcf9645a01f69e103c41848c902687d5eca
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Jan 1 17:06:14 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+commit 64b38e6b5f7e4a6257542dc27703afe7c3a5bc6b
+Author: Danilo Horta <danilo.horta@gmail.com>
+Date:   Mon Jan 1 16:49:21 2018 +0000
+
+    build 1
+
+commit 391cbbc734cd8136ed3851c54f6c6a9506454aa6
+Author: Danilo Horta <danilo.horta@gmail.com>
+Date:   Mon Jan 1 16:10:35 2018 +0000
+
+    copy .dll to LIBRARY_BIN
+
+commit f728e40bc9042b9146d7bc9c6d6ecbb5918fb57c
+Merge: 9f19577 ad9da3b
+Author: Rolando (Max) Espinoza <rmax@users.noreply.github.com>
+Date:   Sun Nov 19 19:25:18 2017 +0200
+
+    Merge pull request #5 from keuv-grvl/master
+    
+    update to 1.3.2
+
+commit ad9da3b74454127720447d8b7a75ce88db0dd384
+Merge: 2428c36 470e3ec
+Author: Keuv Grvl <keuv-grvl@users.noreply.github.com>
+Date:   Fri Oct 20 19:07:42 2017 +0200
+
+    Merge pull request #1 from rmax-contrib/pr-5
+    
+    Add -lrt to fix undefined reference.
+
+commit 470e3ec885277df727576cbcdb94d30b5f5f2d15
+Author: Rolando (Max) Espinoza <me@rmax.io>
+Date:   Fri Oct 20 13:43:07 2017 -0300
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit 28014900465dac3e6323e94f07be28572e9c79e1
+Author: Rolando (Max) Espinoza <me@rmax.io>
+Date:   Fri Oct 20 13:34:51 2017 -0300
+
+    Add -lrt to fix undefined reference.
+
+commit 2428c361a5183c362827f6316bb223a4dc330c1f
+Author: Kévin Gravouil <k.gravouil@gmail.com>
+Date:   Thu Oct 19 16:17:59 2017 +0200
+
+    update to 1.3.2
+
+commit 9f19577b690e26e5d24f16f803227e131dae3c45
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 21:42:48 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 298db96ab62fc8e9a89e4d5cd92f1422af1b98c6
+Merge: ef28dd6 4ce2df8
+Author: Rolando (Max) Espinoza <rmax@users.noreply.github.com>
+Date:   Mon Jul 24 14:32:26 2017 -0400
+
+    Merge pull request #4 from rmax-contrib/update-maintainer-name
+    
+    Update maintainer username: rolando -> rmax [ci skip]
+
+commit 4ce2df8b3657becd38b031337f19d53fd5c96dfe
+Author: Rolando (Max) Espinoza <me@rmax.io>
+Date:   Mon Jul 24 11:23:02 2017 -0400
+
+    Update maintainer username: rolando -> rmax [ci skip]
+
+commit ef28dd65396ba47c831188bfcf5c996d9f0d0b7d
+Merge: 34d6e4b 9c918a9
+Author: Rolando (Max) Espinoza <rmax@users.noreply.github.com>
+Date:   Thu Jul 13 05:01:59 2017 -0300
+
+    Merge pull request #3 from MaxRis/master
+    
+    Remove Whole Program Optimization (/GL) flag disabled by default for …
+
+commit 9c918a9f2cdd95932efdaad6162ae74fce38865c
+Author: Max Risuhin <risuhin.max@gmail.com>
+Date:   Wed Jul 12 22:37:29 2017 +0000
+
+    Remove Whole Program Optimization (/GL) flag disabled by default for VS2015.
+
+commit 34d6e4b8ae2437ca55977bec2f72b582656de1f2
+Merge: b6c0092 7b92004
+Author: Rolando (Max) Espinoza <rolando@users.noreply.github.com>
+Date:   Mon May 15 00:47:27 2017 -0300
+
+    Merge pull request #1 from rolando-contrib/update-1-2-0
+    
+    Update recipe to version 1.2.0
+
+commit 7b92004411e9146a0556d7b275445bbd68fdde5c
+Author: Rolando (Max) Espinoza <me@rmax.io>
+Date:   Sun May 14 23:45:45 2017 -0300
+
+    Update recipe to version 1.2.0
+
+commit b6c009243c86d782a9d0c4c5ae0f41a41d468b39
+Merge: c8f37de 9af235b
+Author: Rolando (Max) Espinoza <rolando@users.noreply.github.com>
+Date:   Mon May 15 00:26:18 2017 -0300
+
+    Merge pull request #2 from rolando-contrib/update-1-1-4
+    
+    Update recipe to version 1.1.4
+
+commit 9af235b3d440b76e23bc5096d986438848bcf1b9
+Author: Rolando (Max) Espinoza <me@rmax.io>
+Date:   Sun May 14 23:50:04 2017 -0300
+
+    Update recipe to version 1.1.4
+
+commit c8f37de9c228b6fa3a1a278d93900b083cd93954
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Mar 31 02:49:07 2017 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 478e7dd32566f4bf4143ef2f8a2b2479afa84db5
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Mar 31 02:40:45 2017 +0000
+
+    Initial feedstock commit with conda-smithy 2.2.2.

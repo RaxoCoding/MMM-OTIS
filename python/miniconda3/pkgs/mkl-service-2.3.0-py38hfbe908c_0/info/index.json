@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py38hfbe908c_0",
+  "build_number": 0,
+  "depends": [
+    "mkl >=2019.4,<2020.0a0",
+    "python >=3.8,<3.9.0a0",
+    "six"
+  ],
+  "license": "3-clause BSD",
+  "license_family": "BSD",
+  "name": "mkl-service",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1573488600779,
+  "version": "2.3.0"
+}

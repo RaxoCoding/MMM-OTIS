@@ -1,0 +1,7 @@
+{
+  "jpeg": "9",
+  "c_compiler": "clang",
+  "xz": "5",
+  "cxx_compiler": "clangxx",
+  "zlib": "1.2"
+}

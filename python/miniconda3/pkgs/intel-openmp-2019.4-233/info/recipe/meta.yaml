@@ -1,0 +1,62 @@
+# This file created by conda-build 3.16.3
+# ------------------------------------------------
+
+package:
+    name: intel-openmp
+    version: 2019.4
+source:
+    -   folder: mkl
+        url: https://anaconda.org/intel/mkl/2019.4/download/osx-64/mkl-2019.4-intel_233.tar.bz2
+    -   folder: mkl-devel
+        url: https://anaconda.org/intel/mkl-devel/2019.4/download/osx-64/mkl-devel-2019.4-intel_233.tar.bz2
+    -   folder: mkl-include
+        url: https://anaconda.org/intel/mkl-include/2019.4/download/osx-64/mkl-include-2019.4-intel_233.tar.bz2
+    -   folder: intel-openmp
+        url: https://anaconda.org/intel/intel-openmp/2019.4/download/osx-64/intel-openmp-2019.4-intel_233.tar.bz2
+    -   folder: daal
+        url: https://anaconda.org/intel/daal/2019.4/download/osx-64/daal-2019.4-intel_233.tar.bz2
+    -   folder: daal-include
+        url: https://anaconda.org/intel/daal-include/2019.4/download/osx-64/daal-include-2019.4-intel_233.tar.bz2
+    -   folder: daal-static
+        url: https://anaconda.org/intel/daal-static/2019.4/download/osx-64/daal-static-2019.4-intel_233.tar.bz2
+    -   folder: daal-devel
+        url: https://anaconda.org/intel/daal-devel/2019.4/download/osx-64/daal-devel-2019.4-intel_233.tar.bz2
+build:
+    binary_relocation: false
+    detect_binary_files_with_prefix: false
+    missing_dso_whitelist:
+        - '*/libiomp5_db.dylib'
+        - '*/libiompstubs5.dylib'
+        - '*/libmkl_*.dylib'
+        - /lib/ld-linux.so.2
+        - /lib/libc.so.6
+        - /lib/libdl.so.2
+        - /lib/libgcc_s.so.1
+        - /lib/libm.so.6
+        - /lib/libpthread.so.0
+        - /lib64/ld-linux-x86-64.so.2
+        - /usr/lib/libc++.1.dylib
+        - libcoi_device.so.0
+        - libiomp5.dylib
+        - libiomp5.so
+        - libtbb.dylib
+    noarch: false
+    number: 233
+    script: repack.sh
+    string: '233'
+about:
+    description: 'Intel openmp runtime implementation
+
+        This package is a repackaged set of binaries obtained directly from Intel\''s
+        anaconda.org channel.
+
+        '
+    doc_url: https://software.intel.com/en-us/node/522690
+    home: https://software.intel.com/en-us/node/522690
+    license: proprietary - Intel
+    license_family: Proprietary
+    license_file: LICENSE.txt
+    summary: Math library for Intel and compatible processors
+extra:
+    copy_test_source_files: true
+    final: true

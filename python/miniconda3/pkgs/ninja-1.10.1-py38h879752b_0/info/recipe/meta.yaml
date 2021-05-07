@@ -1,0 +1,65 @@
+# This file created by conda-build 3.20.0
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/ad09fbe6-4b30-43e8-5862-7de4f72fa959/volume/rsync-recipes/ninja-1.10.1-python_3.8-on-osx, last modified Thu Sep  3 01:24:25 2020
+# ------------------------------------------------
+
+package:
+    name: ninja
+    version: 1.10.1
+source:
+    fn: v1.10.1.tar.gz
+    sha256: a6b6f7ac360d4aabd54e299cc1d8fa7b234cd81b9401693da21221c62569a23e
+    url: https://github.com/ninja-build/ninja/archive/v1.10.1.tar.gz
+build:
+    ignore_run_exports:
+        - vc
+    number: '0'
+    string: py38h879752b_0
+requirements:
+    build:
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - clangxx_osx-64 10.0.0 h05bbb7f_1
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libllvm10 10.0.0 h21ff451_2
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_2
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - ca-certificates 2020.7.22 0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 h1de35cc_1
+        - libffi 3.3 hb1e8313_2
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - python 3.8.5 h26836e1_0
+        - readline 8.0 h1de35cc_0
+        - sqlite 3.33.0 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - libcxx >=10.0.0
+        - python >=3.8,<3.9.0a0
+test:
+    commands:
+        - ninja --version
+about:
+    dev_url: https://github.com/ninja-build/ninja
+    doc_source_url: https://github.com/ninja-build/ninja/tree/master/doc
+    doc_url: https://ninja-build.org/manual.html
+    home: https://ninja-build.org/
+    license: Apache 2.0
+    license_family: Apache
+    license_file: COPYING
+    summary: A small build system with a focus on speed
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - frol

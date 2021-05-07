@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "h0a44026_1",
+  "build_number": 1,
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "license": "Free software (MIT-like)",
+  "name": "ncurses",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1588171347124,
+  "version": "6.2"
+}

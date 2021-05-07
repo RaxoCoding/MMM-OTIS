@@ -1,0 +1,26 @@
+{
+  "build": "py38_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "setuptools",
+    "wheel"
+  ],
+  "features": "",
+  "fn": "pip-20.0.2-py38_3.conda",
+  "legacy_bz2_md5": "07f1071e1565f60bbc7488641d7e8ee9",
+  "legacy_bz2_size": 2004028,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "7f44eba2de99a2a20abac97a7cc56b67",
+  "name": "pip",
+  "sha256": "53871b2b4bc80af7c396a3dc1bb80802eb29e82e432b8b9236f8d5703cfcb365",
+  "size": 1760504,
+  "subdir": "osx-64",
+  "timestamp": 1588891120618,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pip-20.0.2-py38_3.conda",
+  "version": "20.0.2"
+}

@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "py38hddc9c9b_0",
+  "build_number": 0,
+  "depends": [
+    "cffi !=1.11.3,>=1.8",
+    "openssl >=1.1.1h,<1.1.2a",
+    "python >=3.8,<3.9.0a0",
+    "six >=1.4.1"
+  ],
+  "license": "Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
+  "license_family": "BSD",
+  "name": "cryptography",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1601046890267,
+  "version": "3.1.1"
+}

@@ -1,0 +1,72 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/53aa8ef9-9a13-4029-48ca-936c13130d59/volume/rsync-recipes/ruamel_yaml-0.15.87-python_3.8-on-osx, last modified Thu Jun 25 16:57:02 2020
+# ------------------------------------------------
+
+package:
+    name: ruamel_yaml
+    version: 0.15.87
+source:
+    sha256: a736ab1d8c2d5566254a1a2ee38e7c5460520bcccd4a8f0feb25a4463735e5a7
+    url: https://pypi.io/packages/source/r/ruamel.yaml/ruamel.yaml-0.15.87.tar.gz
+build:
+    number: '1'
+    string: py38haf1e3a3_1
+requirements:
+    build:
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libllvm10 10.0.0 h21ff451_0
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_0
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.6.20 py38_0
+        - cython 0.29.20 py38hb1e8313_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libffi 3.3 h0a44026_1
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - python 3.8.3 h26836e1_1
+        - readline 8.0 h1de35cc_0
+        - setuptools 47.3.1 py38_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - xz 5.2.5 h1de35cc_0
+        - yaml 0.2.5 haf1e3a3_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.8,<3.9.0a0
+        - yaml >=0.2.5,<0.3.0a0
+test:
+    imports:
+        - ruamel_yaml
+        - ruamel_yaml.ext._ruamel_yaml
+    requires:
+        - pytest
+about:
+    description: 'ruamel.yaml is a YAML 1.2 loader/dumper package for Python.
+
+        '
+    dev_url: https://bitbucket.org/ruamel/yaml/src
+    doc_source_url: https://bitbucket.org/ruamel/yaml/src/default/_doc/?at=default
+    doc_url: http://yaml.readthedocs.io/en/latest/overview.html
+    home: https://bitbucket.org/ruamel/yaml
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: A patched copy of ruamel.yaml.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mingwandroid

@@ -1,0 +1,22 @@
+{
+  "build": "h1de35cc_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "zlib-1.2.11-h1de35cc_3.conda",
+  "legacy_bz2_md5": "6fddebfbe8354dd5fdb5ac8d56dec5bf",
+  "legacy_bz2_size": 107053,
+  "license": "zlib",
+  "license_family": "Other",
+  "md5": "67bb31afee816662edebfc3171360ccf",
+  "name": "zlib",
+  "sha256": "3089f6985e58e09de935d21f5e4edd563dc557da2153aadc52b56dff5e78d0c8",
+  "size": 92142,
+  "subdir": "osx-64",
+  "timestamp": 1542815100324,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/zlib-1.2.11-h1de35cc_3.conda",
+  "version": "1.2.11"
+}

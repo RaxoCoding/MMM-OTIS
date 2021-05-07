@@ -1,0 +1,40 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/612b70fe-5df1-4526-6d57-2b123a91a063/volume/rsync-recipes/python.app-2-python_3.8-on-osx, last modified Mon Mar  2 07:44:56 2020
+# ------------------------------------------------
+
+package:
+    name: python.app
+    version: '2'
+build:
+    number: '10'
+    string: py38_10
+requirements:
+    build:
+        - ca-certificates 2020.1.1 0
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libedit 3.1.20181209 hb402a30_0
+        - libffi 3.2.1 h475c297_4
+        - ncurses 6.2 h0a44026_0
+        - openssl 1.1.1d h1de35cc_4
+        - python 3.8.1 h359304d_1
+        - readline 7.0 h1de35cc_5
+        - sqlite 3.31.1 ha441bb4_0
+        - tk 8.6.8 ha441bb4_0
+        - xz 5.2.4 h1de35cc_4
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.8,<3.9.0a0
+test:
+    commands:
+        - python.app -V
+        - pythonw -V
+    files:
+        - t.py
+about:
+    license: BSD
+    summary: Proxy on OS X letting Python libraries hook into the gui event loop
+extra:
+    copy_test_source_files: true
+    final: true

@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "py38_10",
+  "build_number": 10,
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "license": "BSD",
+  "name": "python.app",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1583157361909,
+  "version": "2"
+}

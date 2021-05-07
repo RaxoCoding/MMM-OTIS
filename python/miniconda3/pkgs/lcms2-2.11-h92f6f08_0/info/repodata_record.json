@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "h92f6f08_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "jpeg >=9b,<10a",
+    "libtiff >=4.1.0,<5.0a0"
+  ],
+  "features": "",
+  "fn": "lcms2-2.11-h92f6f08_0.conda",
+  "legacy_bz2_md5": "d37b17b262ace030f2503b2e3073f9c3",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "e8ba288b4423899835a6606e94e40be0",
+  "name": "lcms2",
+  "platform": "darwin",
+  "sha256": "75108e09c5f2008789fddf9bc5c77c4ed6bca9c1110021383c244e957a520212",
+  "size": 284512,
+  "subdir": "osx-64",
+  "timestamp": 1593198445996,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/lcms2-2.11-h92f6f08_0.conda",
+  "version": "2.11"
+}

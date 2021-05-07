@@ -1,0 +1,24 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "pysocks-1.7.1-py38_0.conda",
+  "legacy_bz2_md5": "fa805c2754a7e77ac75d68dfc5fad6ba",
+  "legacy_bz2_size": 27916,
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "b943863db0201d650553116249c2a065",
+  "name": "pysocks",
+  "sha256": "022a38c6584bd23d0af8167915c7024758f3b4fddbed7bee2ce272a5eccc1e0f",
+  "size": 28609,
+  "subdir": "osx-64",
+  "timestamp": 1573201079402,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pysocks-1.7.1-py38_0.conda",
+  "version": "1.7.1"
+}

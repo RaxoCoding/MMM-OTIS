@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "py38hc64f4ea_0",
+  "build_number": 0,
+  "depends": [
+    "blas 1.0 mkl",
+    "libcxx >=10.0.0",
+    "mkl >=2019.4,<2020.0a0",
+    "mkl-service >=2,<3.0a0",
+    "numpy >=1.14.6,<2.0a0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "mkl_fft",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1600444571009,
+  "version": "1.2.0"
+}

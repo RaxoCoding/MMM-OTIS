@@ -1,0 +1,15 @@
+/opt/anaconda1anaconda2anaconda3 text bin/2to3-3.8
+/opt/anaconda1anaconda2anaconda3 text bin/idle3.8
+/opt/anaconda1anaconda2anaconda3 text bin/pydoc3.8
+/opt/anaconda1anaconda2anaconda3 text bin/python3.8-config
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/python-3.8-embed.pc
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/python-3.8.pc
+/opt/anaconda1anaconda2anaconda3 text lib/python3.8/_sysconfigdata__darwin_darwin.py
+/opt/anaconda1anaconda2anaconda3 text lib/python3.8/_sysconfigdata__darwin_darwin.py.orig
+/opt/anaconda1anaconda2anaconda3 text lib/python3.8/_sysconfigdata_aarch64_conda_cos7_linux_gnu.py
+/opt/anaconda1anaconda2anaconda3 text lib/python3.8/_sysconfigdata_i686_conda_cos6_linux_gnu.py
+/opt/anaconda1anaconda2anaconda3 text lib/python3.8/_sysconfigdata_powerpc64le_conda_cos7_linux_gnu.py
+/opt/anaconda1anaconda2anaconda3 text lib/python3.8/_sysconfigdata_x86_64_apple_darwin13_4_0.py
+/opt/anaconda1anaconda2anaconda3 text lib/python3.8/_sysconfigdata_x86_64_conda_cos6_linux_gnu.py
+/opt/anaconda1anaconda2anaconda3 text lib/python3.8/config-3.8-darwin/Makefile
+/opt/anaconda1anaconda2anaconda3 text lib/python3.8/config-3.8-darwin/python-config.py

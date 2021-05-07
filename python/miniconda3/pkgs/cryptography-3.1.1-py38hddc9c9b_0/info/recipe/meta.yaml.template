@@ -1,0 +1,84 @@
+{% set version = "3.1.1" %}
+
+package:
+  name: cryptography
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/c/cryptography/cryptography-{{ version }}.tar.gz
+  sha256: 9d9fc6a16357965d282dd4ab6531013935425d0dc4950df2e0cf2a1b1ac1017d
+
+build:
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
+
+requirements:
+  build:
+    - python                                 # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
+    - cffi                                   # [python_impl != "pypy" and build_platform != target_platform]
+    - {{ compiler('c') }}
+  host:
+    - python
+    - pip
+    - openssl
+    - cffi !=1.11.3,>=1.8   # [python_impl != "pypy"]
+  run:
+    - python
+    - openssl
+    - cffi !=1.11.3,>=1.8   # [python_impl != "pypy"]
+    - enum34                # [py2k]
+    - ipaddress             # [py2k]
+    - six >=1.4.1
+
+test:
+  imports:
+    - cryptography
+    - cryptography.fernet
+    - cryptography.hazmat
+    - cryptography.hazmat.backends
+    - cryptography.hazmat.backends.openssl
+    - cryptography.hazmat.bindings
+    - cryptography.hazmat.bindings.openssl
+    - cryptography.hazmat.primitives
+    - cryptography.hazmat.primitives.asymmetric
+    - cryptography.hazmat.primitives.ciphers
+    - cryptography.hazmat.primitives.kdf
+    - cryptography.hazmat.primitives.twofactor
+    - cryptography.x509
+  requires:
+    - cryptography-vectors {{ version }}
+    - hypothesis
+    - iso8601
+    - pretend
+    - pytest
+    - pytz
+    - setuptools
+  source_files:
+    - tests
+  commands:
+    # run_test.py will check that the correct openssl version is linked
+    - pytest
+
+about:
+  home: https://github.com/pyca/cryptography
+  license: Apache-2.0 AND BSD-3-Clause AND PSF-2.0
+  license_family: BSD
+  license_file: LICENSE
+  summary: Provides cryptographic recipes and primitives to Python developers
+  description: |
+    Cryptography is a package which provides cryptographic recipes and
+    primitives to Python developers. Our goal is for it to be your
+    "cryptographic standard library". It supports Python 2.6-2.7, Python 3.3+,
+    and PyPy 2.6+. Cryptography includes both high level recipes, and low level
+    interfaces to common cryptographic algorithms such as symmetric ciphers,
+    message digests and key derivation functions.
+  doc_url: http://cryptography.readthedocs.io/
+  doc_source_url: https://github.com/pyca/cryptography/blob/master/docs/index.rst
+  dev_url: https://github.com/pyca/cryptography
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - jjhelmus
+    - ocefpaf

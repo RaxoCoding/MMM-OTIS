@@ -1,0 +1,23 @@
+{
+  "build": "py38h1de35cc_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "pycosat-0.6.3-py38h1de35cc_1.conda",
+  "legacy_bz2_md5": "97fbe8c5b85a6498af65da6e68e208fd",
+  "legacy_bz2_size": 111066,
+  "license": "MIT",
+  "md5": "12f79b24d2e6c6bd985fa348d1141a13",
+  "name": "pycosat",
+  "sha256": "d9dc43df1fbfe5e2172aec26c2e4a7f624c4fd19abc069f9d26528a8191f618d",
+  "size": 84638,
+  "subdir": "osx-64",
+  "timestamp": 1588117784579,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pycosat-0.6.3-py38h1de35cc_1.conda",
+  "version": "0.6.3"
+}

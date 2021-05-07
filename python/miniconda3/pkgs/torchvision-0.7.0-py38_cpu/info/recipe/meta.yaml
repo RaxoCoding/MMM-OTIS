@@ -1,0 +1,74 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /Users/distiller/project/packaging/torchvision, last modified Fri Jul 24 17:50:31 2020
+# ------------------------------------------------
+
+package:
+    name: torchvision
+    version: 0.7.0
+source:
+    path: /Users/distiller/project
+build:
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    script_env:
+        - BUILD_VERSION
+        - CUDA_HOME
+        - FORCE_CUDA
+        - NVCC_FLAGS
+    string: py38_cpu
+requirements:
+    host:
+        - blas 1.0 mkl
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py38_0
+        - intel-openmp 2019.4 233
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 h1de35cc_1
+        - libffi 3.3 hb1e8313_2
+        - libgfortran 3.0.1 h93005f0_2
+        - mkl 2019.4 233
+        - mkl-service 2.3.0 py38hfbe908c_0
+        - mkl_fft 1.1.0 py38hc64f4ea_0
+        - mkl_random 1.1.1 py38h959d312_0
+        - ncurses 6.2 h0a44026_1
+        - ninja 1.9.0 py38h04f5b5a_0
+        - numpy 1.18.5 py38h1da2735_0
+        - numpy-base 1.18.5 py38h3304bdc_0
+        - openssl 1.1.1g h1de35cc_0
+        - pip 20.1.1 py38_1
+        - python 3.8.3 h26836e1_2
+        - pytorch 1.6.0 py3.8_0
+        - readline 8.0 h1de35cc_0
+        - setuptools 49.2.0 py38_0
+        - six 1.15.0 py_0
+        - sqlite 3.32.3 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - wheel 0.34.2 py38_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - numpy >=1.11
+        - pillow >=4.1.1
+        - python >=3.8,<3.9.0a0
+        - pytorch==1.6.0
+test:
+    commands: pytest . --verbose --junitxml=/Users/distiller/project/build_results/results.xml
+    imports:
+        - torchvision
+        - torchvision.datasets
+        - torchvision.transforms
+    requires:
+        - av
+        - ca-certificates
+        - pytest
+        - scipy
+    source_files:
+        - test
+about:
+    home: https://github.com/pytorch/vision
+    license: BSD
+    license_file: LICENSE
+    summary: image and video datasets and models for torch deep learning
+extra:
+    copy_test_source_files: true
+    final: true

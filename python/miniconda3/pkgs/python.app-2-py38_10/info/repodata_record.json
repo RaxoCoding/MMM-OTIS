@@ -1,0 +1,23 @@
+{
+  "build": "py38_10",
+  "build_number": 10,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "python.app-2-py38_10.conda",
+  "legacy_bz2_md5": "707d5c058c5fa035b7d423d2876542c4",
+  "legacy_bz2_size": 1749913,
+  "license": "BSD",
+  "md5": "ca3111b5387284fd7ccde3d2b6655942",
+  "name": "python.app",
+  "sha256": "407f3803918dc5bd20966e9d48184510ef3bb3b8d6bcfb16c698fc0d5c860a8a",
+  "size": 1613786,
+  "subdir": "osx-64",
+  "timestamp": 1583157361909,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/python.app-2-py38_10.conda",
+  "version": "2"
+}

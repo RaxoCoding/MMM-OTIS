@@ -1,0 +1,23 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "certifi-2020.4.5.1-py38_0.conda",
+  "legacy_bz2_md5": "cf83660c1c6787b17f27eb69d91e31f7",
+  "legacy_bz2_size": 162546,
+  "license": "ISC",
+  "md5": "74a0bb7147345f5fac7eac9c4fe81101",
+  "name": "certifi",
+  "sha256": "33c5df115274355af8d2a0637ef3fcec7de07ff9dea8fbed1873909ca1b7cb35",
+  "size": 158970,
+  "subdir": "osx-64",
+  "timestamp": 1586199332184,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/certifi-2020.4.5.1-py38_0.conda",
+  "version": "2020.4.5.1"
+}

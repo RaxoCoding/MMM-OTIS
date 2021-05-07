@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "h1de35cc_0",
+  "build_number": 0,
+  "depends": [
+    "ncurses >=6.1,<7.0a0"
+  ],
+  "license": "GPL-3.0",
+  "name": "readline",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1581612695050,
+  "version": "8.0"
+}

@@ -1,0 +1,67 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/5bf7759c-e6ee-4f47-7f31-281138093bd9/volume/rsync-recipes/xz-5.2.5-on-osx, last modified Wed Apr 15 10:55:04 2020
+# ------------------------------------------------
+
+package:
+    name: xz
+    version: 5.2.5
+source:
+    patches:
+        - 0001-Add-vs2008-support-via-cmake.patch
+        - 0002-Add-gettimeofday-for-VS2008.patch
+    sha256: 5117f930900b341493827d63aa910ff5e011e0b994197c3b71c08a20228a42df
+    url: http://downloads.sourceforge.net/project/lzmautils/xz-5.2.5.tar.bz2
+build:
+    number: '0'
+    run_exports:
+        - xz >=5.2.5,<6.0a0
+    string: h1de35cc_0
+requirements:
+    build:
+        - autoconf 2.69 pl526he370928_5
+        - automake 1.16.1 pl526_0
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_18
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+        - m4 1.4.18 h1de35cc_1
+        - make 4.2.1 h3efe00b_1
+        - perl 5.26.2 h4e221da_0
+test:
+    commands:
+        - xz --help
+        - unxz --help
+        - lzma --help
+        - conda inspect linkages -p $PREFIX $PKG_NAME
+        - conda inspect objects -p $PREFIX $PKG_NAME
+about:
+    description: 'XZ Utils is free general-purpose data compression software with
+        a high
+
+        compression ratio. XZ Utils were written for POSIX-like systems, but also
+
+        work on some not-so-POSIX systems.
+
+        '
+    dev_url: http://git.tukaani.org/
+    doc_source_url: https://github.com/xz-mirror/xz/blob/master/README
+    doc_url: http://tukaani.org/xz/
+    home: http://tukaani.org/xz/
+    license: LGPL-2.1 and GPL-2.0
+    license_file: COPYING
+    summary: Data compression software with high compression ratio
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mingwandroid
+        - msarahan
+        - nehaljwani
+        - ocefpaf
+        - scopatz

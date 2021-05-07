@@ -1,0 +1,76 @@
+# This file created by conda-build 3.20.2
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/7a3f6c7c-8eed-4755-4fbd-f8d48642d78f/volume/rsync-recipes/openssl-1.1.1h-on-osx, last modified Tue Sep 22 08:23:34 2020
+# ------------------------------------------------
+
+package:
+    name: openssl
+    version: 1.1.1h
+source:
+    fn: openssl-1.1.1h.tar.gz
+    patches:
+        - 0001-Don-t-use-USE_BCRYPTGENRANDOM-for-VS-older-than-2015.patch
+    sha256: 5c9ca8774bd7b03e5784f26ae9e9e6d749c9da2438545077e6b3d755a06595d9
+    url: http://www.openssl.org/source/openssl-1.1.1h.tar.gz
+build:
+    binary_has_prefix_files:
+        - lib/libcrypto.1.1.dylib
+        - lib/libcrypto.a
+    detect_binary_files_with_prefix: true
+    has_prefix_files:
+        - bin/c_rehash
+        - lib/pkgconfig/libcrypto.pc
+        - lib/pkgconfig/libssl.pc
+        - lib/pkgconfig/openssl.pc
+    no_link: lib/libcrypto.1.1.dylib
+    number: '0'
+    run_exports:
+        - openssl >=1.1.1h,<1.1.2a
+    string: haf1e3a3_0
+requirements:
+    build:
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libllvm10 10.0.0 h21ff451_2
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_2
+        - make 4.2.1 h3efe00b_1
+        - patch 2.7.6 h1de35cc_1001
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - perl 5.26.2 h4e221da_0
+    run:
+        - ca-certificates
+test:
+    commands:
+        - touch checksum.txt
+        - openssl sha256 checksum.txt
+        - python -c "from six.moves import urllib; urllib.request.urlopen('https://pypi.org')"
+    requires:
+        - python 3.7.*
+        - six
+about:
+    dev_url: https://github.com/openssl/openssl
+    doc_url: https://www.openssl.org/docs/man1.1.1/
+    home: http://www.openssl.org/
+    license: OpenSSL
+    license_family: Apache
+    license_file: LICENSE
+    summary: OpenSSL is an open-source implementation of the SSL and TLS protocols
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - carlodri
+        - chenghlee
+        - jakirkham
+        - jjhelmus
+        - msarahan
+        - ocefpaf
+        - pelson

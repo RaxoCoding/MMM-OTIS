@@ -1,0 +1,309 @@
+commit cde2ee42466661ed0f78604dfadb157185445ede
+Merge: 6cb8b85 68aba5a
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Wed Mar 4 09:37:24 2020 -0500
+
+    Merge pull request #13 from regro-cf-autotick-bot/2.20
+    
+    pycparser v2.20
+
+commit 68aba5a2c23570e7077bec72592242c79fcfe44a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Mar 4 14:25:12 2020 +0000
+
+    updated v2.20
+
+commit 6cb8b85947c46eed6515a4a44f676b4c671c15ce
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 23:30:39 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit f9abeea3702af50a27093170e41e3208aa5b9d94
+Merge: b1aee00 dfa530e
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Wed Feb 19 08:03:20 2020 -0500
+
+    Merge pull request #12 from conda-forge-linter/conda_forge_admin_11
+    
+    MNT: Add noarch: python
+
+commit dfa530ed9f71af572747e940e172d1fcebc8c0b2
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Feb 18 22:46:10 2020 -0600
+
+    Update meta.yaml
+
+commit 33852387db9a6a1e44b547cccc802b43999f88a2
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Feb 19 04:44:36 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.8, and conda-forge-pinning 2020.02.12
+
+commit 2bebb397daba9e44aceae83eb4fdf69fba28d035
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Feb 19 04:43:32 2020 +0000
+
+    Add noarch:python option
+
+commit b1aee00b66d1cffac192a7ef6bd8590fc6b24843
+Merge: a7d87fc 8caa9f6
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Nov 2 10:23:06 2019 -0500
+
+    Merge pull request #10 from regro-cf-autotick-bot/rebuild-python3801
+    
+    Rebuild for python38
+
+commit 8caa9f63c8dd42712b1ea70c5f553a14e23dafed
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 09:21:33 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+commit 2093deae9fa4d8524205dba4b2abe6766363ac10
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 2 09:21:15 2019 +0000
+
+    bump build number
+
+commit a7d87fc4907bc7378b437f424c5427d9c6757393
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:47:03 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+commit 1fb32a4e38b2ebea599d2b88a1dee77bdb4db3e4
+Merge: 9c0363e 81b523b
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Tue Mar 12 10:31:25 2019 -0400
+
+    Merge pull request #9 from regro-cf-autotick-bot/rebuildaarch64_and_ppc64le_addition1_arch
+    
+    Arch Migrator
+
+commit 81b523b93e389aade50868a1d2fc698f91cf891c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 12 12:38:19 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.11
+
+commit 46ce4347279d347f86e4e29e0d53c97ae7e6938c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 12 12:37:57 2019 +0000
+
+    bump build number
+
+commit 9c0363e1267f6cd36b2922fc9b3a85ef6c63f92c
+Merge: 7190676 9dbc032
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Tue Mar 12 07:55:14 2019 -0400
+
+    Merge pull request #8 from jakirkham-feedstocks/readd_arch
+    
+    Readd arch
+
+commit 9dbc03274339afbddbb766d5ab771134c9b2f4d3
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Mar 11 23:30:10 2019 -0700
+
+    Bump build number to 1
+    
+    Rebuild the package now that it is an arch specific package.
+
+commit a75e7a95ad46cf0f8a59b9c0c1e694861981826a
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Mar 11 23:29:37 2019 -0700
+
+    MNT: Re-rendered with conda-build 3.17.5, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.11
+    
+    Now that this is an arch specific package, re-render to update the
+    feedstock content accordingly.
+
+commit 5360b243bfe13955d41c2aedadbdf1cf7b061841
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Mar 11 23:28:08 2019 -0700
+
+    Drop `noarch: python`
+    
+    As this is a dependency of `conda`, convert this back to an arch
+    specific package.
+
+commit 63995b8c3eb0575a7316b8fd8fb73dc47f0ad7ba
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Mar 11 23:27:56 2019 -0700
+
+    MNT: Re-rendered with conda-build 3.17.5, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.11
+
+commit 7190676ef507b04a894e57e90b0958bf45dc9751
+Merge: 4939631 fb7e058
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Wed Sep 19 15:32:15 2018 -0400
+
+    Merge pull request #7 from regro-cf-autotick-bot/2.19
+    
+    pycparser v2.19
+
+commit fb7e058d264ff996fcf44fdf8af9a055d5a3425a
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Wed Sep 19 13:41:16 2018 -0400
+
+    Update meta.yaml
+
+commit 0448e7b6eedd4bc102c2733ef26cbeb3e0e3d77a
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 19 13:12:27 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.17
+
+commit a63867133952ac1d1bd0ba15321407fdfdda1775
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 19 13:12:22 2018 +0000
+
+    updated v2.19
+
+commit 493963194c61242d7f24ccfe10058d681a7f3130
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:35:54 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 182fc5e1ad455c0006118d3cbc9a4878b9bf2f4a
+Merge: 1e91923 80db073
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Tue Jul 10 11:14:26 2018 -0400
+
+    Merge pull request #6 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit 80db0733cb9bab8308f53e10863df611fbded2f4
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 7 00:09:54 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit 00505d6d8ee201620fd3eedd9416eafaa006852c
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 7 00:09:49 2018 +0000
+
+    add noarch
+
+commit 1e9192383538f752f556770fae404f975c99f218
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 20:17:21 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit f71e02dd813364f0b40096260d62139524da3f2a
+Merge: f82018a ac5dcb3
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Fri Jul 7 13:47:29 2017 -0400
+
+    Merge pull request #5 from synapticarbors/v2.18
+    
+    Update to v2.18
+
+commit ac5dcb33ca7d9b3bdb1ecd57bae233ac04e5aed2
+Author: Joshua L. Adelman <joshua.adelman@gmail.com>
+Date:   Fri Jul 7 09:26:46 2017 -0400
+
+    Update to v2.18
+
+commit 8d44b029b1e2664306ddcdf1a11372d0b6c9547c
+Author: Joshua L. Adelman <joshua.adelman@gmail.com>
+Date:   Fri Jul 7 09:24:29 2017 -0400
+
+    MNT: Re-rendered with conda-smithy 2.3.2
+
+commit f82018a1b9f2d61b11f39fb6f4976b7899ad5749
+Merge: b905af7 d266b88
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Mon Mar 6 23:36:05 2017 -0500
+
+    Merge pull request #4 from synapticarbors/master
+    
+    Trigger Python 3.6 build
+
+commit d266b8816c5e0c47bd27a9d6b745170cf76e2ce9
+Author: Joshua L. Adelman <joshua.adelman@gmail.com>
+Date:   Mon Mar 6 23:20:25 2017 -0500
+
+    Trigger Python 3.6 build
+
+commit b905af725f7d6ba506514915a54eaee1637bd160
+Merge: ac6555a 8ecb517
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Mon Feb 27 11:56:15 2017 -0500
+
+    Merge pull request #3 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 8ecb517cad7c8f6c0962a4185da8f0616c29d0e1
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Feb 27 01:37:38 2017 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 2.1.1.
+
+commit ac6555ac2ca9dc6e59701656b6478c94bfa158ed
+Merge: f8b8cd0 fd9f273
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Sat Dec 17 08:16:11 2016 -0500
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit fd9f273f696a54be173ae8bb050a87a1c02cd777
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Dec 17 01:39:27 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.7.0.
+
+commit f8b8cd0043d40afae13f9dfaeeebedefa4f6aefa
+Merge: 19f18b9 9c3afd9
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Tue Nov 1 11:20:17 2016 -0400
+
+    Merge pull request #1 from synapticarbors/v2.17
+    
+    Update to version 2.17
+
+commit 9c3afd92a34bbcc05e0ac8b9ab767d7cef1950d3
+Author: Joshua L. Adelman <joshua.adelman@gmail.com>
+Date:   Tue Nov 1 08:58:47 2016 -0400
+
+    MNT: Re-rendered with conda-smithy 1.4.5
+
+commit 9a65ea1cf680af45d007ab5821800f1ce93036a7
+Author: Joshua L. Adelman <joshua.adelman@gmail.com>
+Date:   Tue Nov 1 08:07:55 2016 -0400
+
+    Re-render feedstock
+
+commit c4cc36f87615a470400c4738eeccbac3a25e9ad5
+Author: Joshua L. Adelman <joshua.adelman@gmail.com>
+Date:   Mon Oct 31 13:16:33 2016 -0400
+
+    Update to v2.17
+
+commit 8f813c0a08c603a73897ae0ae46756b92d50f826
+Author: Joshua L. Adelman <joshua.adelman@gmail.com>
+Date:   Mon Oct 31 13:11:29 2016 -0400
+
+    Re-render feedstock
+
+commit 19f18b9e9b42ae369e20f593942cd77ab19b09e9
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Aug 24 01:55:07 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 435556bc4c074456ac39d398c2b62b5f40f953e4
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Aug 24 01:53:48 2016 +0000
+
+    Initial commit of the pycparser feedstock.

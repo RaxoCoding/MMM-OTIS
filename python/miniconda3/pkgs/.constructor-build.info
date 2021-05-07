@@ -1,0 +1,1 @@
+{"constructor": "3.0.6", "conda": "4.8.3", "platform": "darwin", "python": "3.7.6 (default, Jan  8 2020, 13:42:34) \n[Clang 4.0.1 (tags/RELEASE_401/final)]", "python_version": [3, 7, 6, "final", 0], "machine": "x86_64", "platform_full": "Darwin Kernel Version 14.5.0: Sun Jun  4 21:40:08 PDT 2017; root:xnu-2782.70.3~1/RELEASE_X86_64", "extra": ["10.10.5", ["", "", ""], "x86_64"]}

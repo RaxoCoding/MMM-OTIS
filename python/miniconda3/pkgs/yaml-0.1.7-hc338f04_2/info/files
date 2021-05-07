@@ -1,0 +1,6 @@
+include/yaml.h
+lib/libyaml-0.2.dylib
+lib/libyaml.a
+lib/libyaml.dylib
+lib/libyaml.la
+lib/pkgconfig/yaml-0.1.pc

@@ -1,0 +1,43 @@
+{% set version = "1.10.1" %}
+
+package:
+  name: ninja
+  version: {{ version }}
+
+source:
+  fn: v{{ version }}.tar.gz
+  url: https://github.com/ninja-build/ninja/archive/v{{ version }}.tar.gz
+  sha256: a6b6f7ac360d4aabd54e299cc1d8fa7b234cd81b9401693da21221c62569a23e
+
+build:
+  number: 0
+  skip: true  # [win and vc!=14]
+  ignore_run_exports:
+    - vc
+
+requirements:
+  build:
+    - {{ compiler('cxx') }}
+  host:
+    - python
+  run:
+    - python
+    - vs2015_runtime  # [win]
+
+test:
+  commands:
+    - ninja --version
+
+about:
+  home: https://ninja-build.org/
+  license: Apache 2.0
+  license_family: Apache
+  license_file: COPYING
+  summary: A small build system with a focus on speed
+  dev_url: https://github.com/ninja-build/ninja
+  doc_url: https://ninja-build.org/manual.html
+  doc_source_url: https://github.com/ninja-build/ninja/tree/master/doc
+
+extra:
+  recipe-maintainers:
+    - frol

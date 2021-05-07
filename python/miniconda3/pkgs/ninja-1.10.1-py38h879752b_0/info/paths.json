@@ -1,0 +1,13 @@
+{
+  "paths": [
+    {
+      "_path": "bin/ninja",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/ad09fbe6-4b30-43e8-5862-7de4f72fa959/volume/ninja_1599132556859/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+      "sha256": "cce0ddefdab5fb1ef7c5f031c711c0b9fd0f573b16473990ab9944775bdfbd63",
+      "size_in_bytes": 308768
+    }
+  ],
+  "paths_version": 1
+}

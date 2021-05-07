@@ -1,0 +1,63 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/5fb26cea-7158-4943-4360-30d0164e4e2d/volume/rsync-recipes/yaml-0.2.5-on-osx, last modified Thu Jun 25 15:12:50 2020
+# ------------------------------------------------
+
+package:
+    name: yaml
+    version: 0.2.5
+source:
+    sha256: fa240dbf262be053f3898006d502d514936c818e422afdcf33921c63bed9bf2e
+    url: https://github.com/yaml/libyaml/archive/0.2.5.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - yaml >=0.2.5,<0.3.0a0
+    string: haf1e3a3_0
+requirements:
+    build:
+        - autoconf 2.69 pl526he370928_5
+        - automake 1.16.2 pl526_0
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libllvm10 10.0.0 h21ff451_0
+        - libtool 2.4.6 h1de35cc_5
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_0
+        - m4 1.4.18 h1de35cc_1
+        - make 4.2.1 h3efe00b_1
+        - perl 5.26.2 h4e221da_0
+        - tapi 1000.10.8 ha1b3eb9_0
+test:
+    commands:
+        - test -f "${PREFIX}/include/yaml.h"
+        - test -f "${PREFIX}/lib/libyaml${SHLIB_EXT}"
+about:
+    description: 'YAML is a human friendly data serialization standard for all programming
+
+        languages.
+
+        '
+    dev_url: https://github.com/yaml
+    doc_source_url: https://github.com/yaml/www.yaml.org/tree/master/docs
+    doc_url: http://www.yaml.org/spec/1.2/spec.html
+    home: http://pyyaml.org/wiki/LibYAML
+    license: MIT
+    license_file: License
+    summary: A C library for parsing and emitting YAML
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mingwandroid
+        - msarahan
+        - ocefpaf
+        - pelson
+        - seanyen

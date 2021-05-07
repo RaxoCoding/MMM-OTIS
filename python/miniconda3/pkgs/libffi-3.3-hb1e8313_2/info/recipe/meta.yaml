@@ -1,0 +1,69 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/456b3c38-05c8-4514-4524-16f70e0904dc/volume/rsync-recipes/libffi-3.3-on-osx, last modified Mon Jul  6 11:38:18 2020
+# ------------------------------------------------
+
+package:
+    name: libffi
+    version: '3.3'
+source:
+    fn: libffi-3.3.tar.gz
+    patches:
+        - patches/0001-check-for-existence-of-type-before-setting.patch
+    sha1: 8df6cb570c8d6596a67d1c0773bf00650154f7aa
+    url: ftp://sourceware.org/pub/libffi/libffi-3.3.tar.gz
+build:
+    number: '2'
+    run_exports:
+        - libffi >=3.3,<3.4.0a0
+    string: hb1e8313_2
+requirements:
+    build:
+        - autoconf 2.69 pl526he370928_5
+        - automake 1.16.2 pl526_0
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - clangxx_osx-64 10.0.0 h05bbb7f_1
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libllvm10 10.0.0 h21ff451_0
+        - libtool 2.4.6 h1de35cc_5
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_0
+        - m4 1.4.18 h1de35cc_1
+        - make 4.2.1 h3efe00b_1
+        - perl 5.26.2 h4e221da_0
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - libcxx 10.0.0 1
+    run:
+        - libcxx >=10.0.0
+test:
+    commands:
+        - test -e $PREFIX/lib/libffi.a
+        - test -e $PREFIX/lib/libffi.dylib
+        - test -e $PREFIX/include/ffi.h
+        - test -e $PREFIX/include/ffitarget.h
+about:
+    description: 'The libffi library provides a portable, high level programming interface
+
+        to various calling conventions. This allows a programmer to call any
+
+        function specified by a call interface description at run-time.
+
+        '
+    dev_url: https://github.com/libffi/libffi
+    doc_url: https://sourceware.org/libffi/
+    home: https://sourceware.org/libffi/
+    license: Custom
+    summary: A Portable Foreign Function Interface Library.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - scopatz
+        - stefan-balke

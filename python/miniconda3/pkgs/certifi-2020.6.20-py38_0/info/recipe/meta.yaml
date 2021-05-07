@@ -1,0 +1,66 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/7940af83-5535-4ed4-7b86-c57e5159abae/volume/rsync-recipes/certifi-2020.6.20-python_3.8-on-osx, last modified Mon Jun 22 10:53:09 2020
+# ------------------------------------------------
+
+package:
+    name: certifi
+    version: 2020.6.20
+source:
+    -   folder: certifi
+        sha256: 5930595817496dd21bb8dc35dad090f1c2cd0adfaf21204bf6732ca5d8ee34d3
+        url: https://pypi.io/packages/source/c/certifi/certifi-2020.6.20.tar.gz
+    -   folder: pip_wheel
+        sha256: 993134f0475471b91452ca029d4390dc8f298ac63a712814f101cd1b6db46676
+        url: https://pypi.io/packages/py2.py3/p/pip/pip-19.1.1-py2.py3-none-any.whl
+    -   folder: setuptools_wheel
+        sha256: c7769ce668c7a333d84e17fe8b524b1c45e7ee9f7908ad0a73e1eda7e6a5aebf
+        url: https://pypi.io/packages/py2.py3/s/setuptools/setuptools-41.0.1-py2.py3-none-any.whl
+build:
+    number: '0'
+    string: py38_0
+requirements:
+    host:
+        - ca-certificates 2020.1.1 0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libffi 3.3 h0a44026_1
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - python 3.8.3 h26836e1_1
+        - readline 8.0 h1de35cc_0
+        - sqlite 3.32.2 hffcf06c_0
+        - tk 8.6.10 hb0a8c7a_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - python >=3.8,<3.9.0a0
+test:
+    imports:
+        - certifi
+about:
+    description: 'Certifi is a curated collection of Root Certificates for validating
+        the
+
+        trustworthiness of SSL certificates while verifying the identity of TLS
+
+        hosts.
+
+        '
+    dev_url: https://github.com/certifi/python-certifi
+    doc_source_url: https://github.com/certifi/certifi.io/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/certifi
+    home: http://certifi.io/
+    license: ISC
+    license_file: certifi/LICENSE
+    summary: Python package for providing Mozilla's CA Bundle.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jjhelmus
+        - mingwandroid
+        - ocefpaf
+        - pelson
+        - sigmavirus24

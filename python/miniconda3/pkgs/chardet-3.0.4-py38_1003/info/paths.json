@@ -1,0 +1,547 @@
+{
+  "paths": [
+    {
+      "_path": "bin/chardetect",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "9c738af97a45b5c5cb3a10a37e89c5c040a41eda4cb41d28f44b8314a1d6c421",
+      "size_in_bytes": 252
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet-3.0.4.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet-3.0.4.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "6095e9ffa777dd22839f7801aa845b31c9ed07f3d6bf8a26dc5d2dec8ccc0ef3",
+      "size_in_bytes": 26432
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet-3.0.4.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "a3a5cd378d44522a1e0e79251f5fbc85a3928c8eb402401a23cdb700d16438ce",
+      "size_in_bytes": 3304
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet-3.0.4.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "bddb3ea83410ce85135bf0d5698d51841bf4663a713e61af65d86eac275b70c8",
+      "size_in_bytes": 6065
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet-3.0.4.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet-3.0.4.dist-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "7c032686ee5e27ecc027eb267ea430442950dfe9e8cce0a6bc9ebe13c960189a",
+      "size_in_bytes": 60
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet-3.0.4.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "028c3305b672e31f048ab0010dd2522c964c909ff9de221a83cc5f291e83ee42",
+      "size_in_bytes": 8
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "62c3f9c1096c1c9d9ab85d516497f2a624ab080eff6d08919b7112fcd23bebe6",
+      "size_in_bytes": 1559
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "33af99929a2f15d1cffea6701afa5af3f41b6c3aa85550916348bdde8a2eaa12",
+      "size_in_bytes": 796
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/big5freq.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "68063fac9d88d4cd1a11ed22d4a825b6e1038333ffbda724ed8aee391266946d",
+      "size_in_bytes": 27125
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/big5prober.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "42b6b20c040a9365f05eb367eb07f0598d2466c845a488288eb08f847bea80be",
+      "size_in_bytes": 1080
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/chardistribution.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "bf85f4342fc07835e0374587389c868508e6c3b64817074759c5d32b665227aa",
+      "size_in_bytes": 6166
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/charsetgroupprober.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "041baaa70004c79f6217308f1916ec0005d44661e861f5e59a6018711d932871",
+      "size_in_bytes": 2197
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/charsetprober.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "7511189017d34722264a433bed4c8bd42ebc5369c9b4b7a9310c23fae576867d",
+      "size_in_bytes": 3429
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/codingstatemachine.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "a9ac5216bfb1feee01acf2394968498ecd97f78ee2e76656b9bf70d2222e18dd",
+      "size_in_bytes": 2856
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/compat.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "84c9926bf297a1dc87f918bf990148e8b07ad7bb2c33c26a1e3420773ebe0f6b",
+      "size_in_bytes": 301
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/cp949prober.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "33750387d97906333978c74c9fbe65f3c9d2218c066b463259408f3d9a17486f",
+      "size_in_bytes": 1087
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/enums.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "926d0f1b31e608b6a702c54b5a6f28ec5e61dfa4cc9c6f621a8157c241f84bcd",
+      "size_in_bytes": 2594
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/escprober.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "2de101c60d3b40b9e2524fe9149f67a886eb578cc933285dfc8a2b4300ffe9b6",
+      "size_in_bytes": 2579
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/escsm.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "a60c485f029a2897b3962d81a32a24afa8364834d74b3cc23e5ea545fe07a3c2",
+      "size_in_bytes": 7420
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/eucjpprober.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "af8ddd6706420df803ab45f85c4e50de7715fe3af55fd903235fda4f952cc699",
+      "size_in_bytes": 2397
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/euckrfreq.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "9948cba0908591b690ca80b236e5dc3caddf7b4c8acc03f5a1440c415ceb3fd2",
+      "size_in_bytes": 12009
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/euckrprober.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "a615f5ba50aa3e87bae5c0a4c9b7302d389cf761bdfe128395ed202ecfb109b0",
+      "size_in_bytes": 1088
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/euctwfreq.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "cc0ec6dddcbb8b8ae83167567075ca009470c79376c53f32f725afe7b95b1233",
+      "size_in_bytes": 27129
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/euctwprober.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "7fd74d63f2f2efd5b7a3b7f9b7347c5d3ae231f6a59bc815ef09ec7b189b416d",
+      "size_in_bytes": 1088
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/gb2312freq.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "e76428413536fd19b93bf0aaf2766ff5e22939610a6bbe8eff13e7d00a0873f4",
+      "size_in_bytes": 19053
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/gb2312prober.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "73f91307c31279e474bebede0a36adc50b48515e0d94053c9f7f524696e89ac7",
+      "size_in_bytes": 1096
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/hebrewprober.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "320b01c4bfa8cc7653594532667552d4005c91fffb21f205b3a74291b5a8076e",
+      "size_in_bytes": 2969
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/jisfreq.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "cae7c520d00d66241f49d4ce314a5c7dd6055d0ce17551f189ee5facf8965340",
+      "size_in_bytes": 22081
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/jpcntx.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "cadd7f5ce9c35af8190630f99cae4bcbf58ee66b8d32ee5a037d3d86794b7b80",
+      "size_in_bytes": 37554
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/langbulgarianmodel.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "b98590f94601b9cc6b5362feaae3c91cd05bcae80a16c7fe750061b9a471a784",
+      "size_in_bytes": 23578
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/langcyrillicmodel.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "5ab38693568538695c326332933d29d49e9a30292f5d74739dd81e2e0201543b",
+      "size_in_bytes": 29042
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/langgreekmodel.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "b35f08be7b4700e48989e0ad60af91dfa2bbe1443b054d3853fd2dec26e9b517",
+      "size_in_bytes": 23536
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/langhebrewmodel.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "1173b64321f6a140e3e2140c383884923a6472acffbc1cc6b9c2aa0f4fdf608f",
+      "size_in_bytes": 22163
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/langhungarianmodel.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "85a82815d52091ec63deebb048bf092516f6b4bc7fcda260f92bacf8bed1fd68",
+      "size_in_bytes": 23567
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/langthaimodel.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "52d630a9521d0271fa86c4de9758fe11239fd4198d3310029f958ea90c8bfd90",
+      "size_in_bytes": 22142
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/langturkishmodel.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "9fbbd21899fcf3d972287e171cc60c7f1716e172056addc86333176e6e6da63b",
+      "size_in_bytes": 22165
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/latin1prober.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "0ef98a54dac98702a43e0c3ba5468b801a269c604f4ee2666134c2407569bf25",
+      "size_in_bytes": 3349
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/mbcharsetprober.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "5664c81abb898be6916147bfc55be6b543caf69ff7fe499e461fbd5cdbe570ab",
+      "size_in_bytes": 2212
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/mbcsgroupprober.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "2453c726d346a11f5f3e8d59840e9e71e9377db930578b34a075f8c42fc46dd8",
+      "size_in_bytes": 1077
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/mbcssm.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "ec27aa72f5344771563750308687bbc3f17a94b98cb96bf4d57a2763c312b71e",
+      "size_in_bytes": 16700
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/sbcharsetprober.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "3745f784a925dc5be5548691db5261384b3839163f5d468f4588e3a2155bd5fb",
+      "size_in_bytes": 2965
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/sbcsgroupprober.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "508f40791ed96a45aba3f110f63bdcc9c55248dc5434ad6c19786577c304b330",
+      "size_in_bytes": 1575
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/sjisprober.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "4dc9ef2ab47560de02812c07b3db04072c5fa276cf7974e7ed8392bb22e59039",
+      "size_in_bytes": 2433
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/universaldetector.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "553ab8295d4d09f852ecd3bb3db3a59c35347923322bdcc6a12172997c5b4f8e",
+      "size_in_bytes": 5777
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/utf8prober.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "37f3e73f93848f7e2587287b5e2459f4137626442ada35b541e12a7beba63160",
+      "size_in_bytes": 1938
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/__pycache__/version.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "0e920e122cd6d0320c4ab1ffdcc260a42775e0dc755be25fee566d1a5f955f8b",
+      "size_in_bytes": 385
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/big5freq.py",
+      "path_type": "hardlink",
+      "sha256": "0ffccae46cb3a15b117acd0790b2738a5b45417d1b2822ceac57bdff10ef3bff",
+      "size_in_bytes": 31254
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/big5prober.py",
+      "path_type": "hardlink",
+      "sha256": "901c476dd7ad0693deef1ae56fe7bdf748a8b7ae20fde1922dddf6941eff8773",
+      "size_in_bytes": 1757
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/chardistribution.py",
+      "path_type": "hardlink",
+      "sha256": "df0a164bad8aac6a282b2ab3e334129e315b2696ba57b834d9d68089b4f0725f",
+      "size_in_bytes": 9411
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/charsetgroupprober.py",
+      "path_type": "hardlink",
+      "sha256": "e9b0eef1822246e49c5f871af4881bd14ebd4c0d8f1975c37a3e82738ffd90ee",
+      "size_in_bytes": 3787
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/charsetprober.py",
+      "path_type": "hardlink",
+      "sha256": "2929b0244ae3ca9ca3d1b459982e45e5e33b73c61080b6088d95e29ed64db2d8",
+      "size_in_bytes": 5110
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/cli/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/cli/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "84d97587a318a45855088c1b52e34b53241e7032b931dcd12427c204a362b049",
+      "size_in_bytes": 142
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/cli/__pycache__/chardetect.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "255eb0eeac528f6ce8fa2edd51fc0341fda661577e081cfd6d57143434eb2eca",
+      "size_in_bytes": 2607
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/cli/chardetect.py",
+      "path_type": "hardlink",
+      "sha256": "6013bc2f8997a34591ebff858e1ffc4313c1a0404da81f6837136b75ce78010b",
+      "size_in_bytes": 2738
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/codingstatemachine.py",
+      "path_type": "hardlink",
+      "sha256": "558a7fe9ccb2922e6c1e05c34999d75b8ab5a1e94773772ef40c904d7eeeba0f",
+      "size_in_bytes": 3590
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/compat.py",
+      "path_type": "hardlink",
+      "sha256": "3ca4f31e449bb5b1c3a92f4fcae8cc6d7ef8ab56bc98ca5e4130d5b10859311c",
+      "size_in_bytes": 1134
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/cp949prober.py",
+      "path_type": "hardlink",
+      "sha256": "4d9e37e105fccf306c9d4bcbffcc26e004154d9d9992a10440bfe5370f5ff68c",
+      "size_in_bytes": 1855
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/enums.py",
+      "path_type": "hardlink",
+      "sha256": "0229b075bf5ab357492996853541f63a158854155de9990927f58ae6c358f1c5",
+      "size_in_bytes": 1661
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/escprober.py",
+      "path_type": "hardlink",
+      "sha256": "924caa560d58c370c8380309d9b765c9081415086e1c05bc7541ac913a0d5927",
+      "size_in_bytes": 3950
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/escsm.py",
+      "path_type": "hardlink",
+      "sha256": "46e5e580dbd32036ab9ddbe594d0a4e56641229742c50d2471df4402ec5487ce",
+      "size_in_bytes": 10510
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/eucjpprober.py",
+      "path_type": "hardlink",
+      "sha256": "883f09769d084918e08e254dedfd1ef3119e409e46336a1e675740f276d2794c",
+      "size_in_bytes": 3749
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/euckrfreq.py",
+      "path_type": "hardlink",
+      "sha256": "fbb19d9af8167b3e3e78ee12b97a5aeed0620e2e6f45743c5af74503355a49fa",
+      "size_in_bytes": 13546
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/euckrprober.py",
+      "path_type": "hardlink",
+      "sha256": "32a14c4d05f15b81dbcc8a59f652831c1dc637c48fe328877a74e67fc83f3f16",
+      "size_in_bytes": 1748
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/euctwfreq.py",
+      "path_type": "hardlink",
+      "sha256": "368d56c9db853a00795484d403b3cbc82e6825137347231b07168a235975e8c0",
+      "size_in_bytes": 31621
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/euctwprober.py",
+      "path_type": "hardlink",
+      "sha256": "d77a7a10fe3245ac6a9cfe221edc47389e91db3c47ab5fe6f214d18f3559f797",
+      "size_in_bytes": 1747
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/gb2312freq.py",
+      "path_type": "hardlink",
+      "sha256": "257f25b3078a2e69c2c2693c507110b0b824affacffe411bbe2bc2e2a3ceae57",
+      "size_in_bytes": 20715
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/gb2312prober.py",
+      "path_type": "hardlink",
+      "sha256": "806bc85a2f568438c4fb14171ef348cab9cbbc46cc01883251267ae4751fca5c",
+      "size_in_bytes": 1754
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/hebrewprober.py",
+      "path_type": "hardlink",
+      "sha256": "737499f8aee1bf2cc663a251019c4983027fb144bd93459892f318d34601605a",
+      "size_in_bytes": 13838
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/jisfreq.py",
+      "path_type": "hardlink",
+      "sha256": "be9989bf606ed09f209cc5513c730579f4d1be8fe16b59abc8b8a0f0207080e8",
+      "size_in_bytes": 25777
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/jpcntx.py",
+      "path_type": "hardlink",
+      "sha256": "3d894da915104fc2ccddc4f91661c63f48a2b1c1654d6103f763002ef06e9e0a",
+      "size_in_bytes": 19643
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/langbulgarianmodel.py",
+      "path_type": "hardlink",
+      "sha256": "d47a904bd3dbb678f5c508318ad24cbf0f17ea42abe4ea1c90d09959f110acf1",
+      "size_in_bytes": 12839
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/langcyrillicmodel.py",
+      "path_type": "hardlink",
+      "sha256": "2ce0da8efb1eb47f3bc980c340a0360942d7507f3bb48db6ddd85f8e1f59c7d7",
+      "size_in_bytes": 17948
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/langgreekmodel.py",
+      "path_type": "hardlink",
+      "sha256": "f18016edb53c6304896a9d2420949b3ccc35044ab31a35b3a9ca9fd168142800",
+      "size_in_bytes": 12688
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/langhebrewmodel.py",
+      "path_type": "hardlink",
+      "sha256": "2529ea984e44eb6b432d33d3bcba50b20e6038c3b83db75646f57b02f91cd070",
+      "size_in_bytes": 11345
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/langhungarianmodel.py",
+      "path_type": "hardlink",
+      "sha256": "4616a96121b997465a3be555e056a7e6c5b4591190aa1c0133ad72c77cb1c8e0",
+      "size_in_bytes": 12592
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/langthaimodel.py",
+      "path_type": "hardlink",
+      "sha256": "f25d35ef71aefd6e86f26c6640e4c417896cd98744ec5c567f74244b11065c94",
+      "size_in_bytes": 11290
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/langturkishmodel.py",
+      "path_type": "hardlink",
+      "sha256": "5b6d9e44d26ca88eae5807f05d22955969c27ab62aac8f1d6504e6fccd254459",
+      "size_in_bytes": 11102
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/latin1prober.py",
+      "path_type": "hardlink",
+      "sha256": "4b6228391845937f451053a54855ad815c9b4623fa87b0652e574755c94d914f",
+      "size_in_bytes": 5370
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/mbcharsetprober.py",
+      "path_type": "hardlink",
+      "sha256": "011f797851fdbeea927ef2d064df8be628de6b6e4d3810a85eac3cb393bdc4b4",
+      "size_in_bytes": 3413
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/mbcsgroupprober.py",
+      "path_type": "hardlink",
+      "sha256": "87a4d19e762ad8ec46d56743e493b2c5c755a67edd1b4abebc1f275abe666e1e",
+      "size_in_bytes": 2012
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/mbcssm.py",
+      "path_type": "hardlink",
+      "sha256": "498df6c15205dc7cdc8d8dc1684b29cbd99eb5b3522b120807444a3e7eed8e92",
+      "size_in_bytes": 25481
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/sbcharsetprober.py",
+      "path_type": "hardlink",
+      "sha256": "2c34a90a5743085958c149069300f6a05c4b94f5885974f4f5a907ff63e263be",
+      "size_in_bytes": 5657
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/sbcsgroupprober.py",
+      "path_type": "hardlink",
+      "sha256": "d48a6b70207f935a9f9a7c460ba3016f110b94aa83dec716e92f1823075ec970",
+      "size_in_bytes": 3546
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/sjisprober.py",
+      "path_type": "hardlink",
+      "sha256": "208b7e9598f4589a8ae2b9946732993f8189944f0a504b45615b98f7a7a4e4c4",
+      "size_in_bytes": 3774
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/universaldetector.py",
+      "path_type": "hardlink",
+      "sha256": "a8bd35ef8952644e38d9e076d679e4b53f7f55c0327b4ee5685594794ae3b6d6",
+      "size_in_bytes": 12485
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/utf8prober.py",
+      "path_type": "hardlink",
+      "sha256": "21d0fcbf7cd63ac07c38b8b23e2fb2fdfab08a9445c55f4d73578a04b4ae204c",
+      "size_in_bytes": 2766
+    },
+    {
+      "_path": "lib/python3.8/site-packages/chardet/version.py",
+      "path_type": "hardlink",
+      "sha256": "b29dc1d3c9ab0d707ea5fdcaf5fa89ff37831ce08b0bc46b9e04320c56a9ffb8",
+      "size_in_bytes": 242
+    }
+  ],
+  "paths_version": 1
+}

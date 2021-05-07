@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "py38_cpu",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/pytorch/osx-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.11",
+    "pillow >=4.1.1",
+    "python >=3.8,<3.9.0a0",
+    "pytorch 1.6.0"
+  ],
+  "features": "",
+  "fn": "torchvision-0.7.0-py38_cpu.tar.bz2",
+  "license": "BSD",
+  "md5": "f1b6fb81344512b89f2c93cc77fbf8c9",
+  "name": "torchvision",
+  "platform": "darwin",
+  "size": 6102963,
+  "subdir": "osx-64",
+  "timestamp": 1595638452056,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/pytorch/osx-64/torchvision-0.7.0-py38_cpu.tar.bz2",
+  "version": "0.7.0"
+}

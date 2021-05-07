@@ -1,0 +1,72 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/d9f5f68d-0961-465e-539b-dfb85804d8c0/volume/rsync-recipes/openssl-1.1.1g-on-osx, last modified Tue Apr 21 08:42:32 2020
+# ------------------------------------------------
+
+package:
+    name: openssl
+    version: 1.1.1g
+source:
+    fn: openssl-1.1.1g.tar.gz
+    patches:
+        - 0001-Don-t-use-USE_BCRYPTGENRANDOM-for-VS-older-than-2015.patch
+    sha256: ddb04774f1e32f0c49751e21b67216ac87852ceb056b75209af2443400636d46
+    url: http://www.openssl.org/source/openssl-1.1.1g.tar.gz
+build:
+    binary_has_prefix_files:
+        - lib/libcrypto.1.1.dylib
+        - lib/libcrypto.a
+    detect_binary_files_with_prefix: true
+    has_prefix_files:
+        - bin/c_rehash
+        - lib/pkgconfig/libcrypto.pc
+        - lib/pkgconfig/libssl.pc
+        - lib/pkgconfig/openssl.pc
+    no_link: lib/libcrypto.1.1.dylib
+    number: '0'
+    run_exports:
+        - openssl >=1.1.1g,<1.1.2a
+    string: h1de35cc_0
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_18
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+        - make 4.2.1 h3efe00b_1
+        - patch 2.7.6 h1de35cc_1001
+    host:
+        - perl 5.26.2 h4e221da_0
+    run:
+        - ca-certificates
+test:
+    commands:
+        - touch checksum.txt
+        - openssl sha256 checksum.txt
+        - python -c "from six.moves import urllib; urllib.request.urlopen('https://pypi.org')"
+    requires:
+        - python 3.7.*
+        - six
+about:
+    dev_url: https://github.com/openssl/openssl
+    doc_url: https://www.openssl.org/docs/man1.1.1/
+    home: http://www.openssl.org/
+    license: OpenSSL
+    license_family: Apache
+    license_file: LICENSE
+    summary: OpenSSL is an open-source implementation of the SSL and TLS protocols
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - carlodri
+        - jakirkham
+        - jjhelmus
+        - msarahan
+        - ocefpaf
+        - pelson

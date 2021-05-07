@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "py38ha12b0ac_0",
+  "build_number": 0,
+  "depends": [
+    "cffi",
+    "idna",
+    "openssl >=1.1.1g,<1.1.2a",
+    "python >=3.8,<3.9.0a0",
+    "six"
+  ],
+  "license": "Apache-2.0 AND BSD-3-Clause AND PSF-2.0",
+  "license_family": "BSD",
+  "name": "cryptography",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1588861290241,
+  "version": "2.9.2"
+}

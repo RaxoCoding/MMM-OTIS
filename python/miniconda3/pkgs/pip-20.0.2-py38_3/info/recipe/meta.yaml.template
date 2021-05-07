@@ -1,0 +1,75 @@
+{% set version = "20.0.2" %}
+{% set debug = os.environ.get('PY_INTERP_DEBUG', '') %}
+{% if debug != '' %}
+  {% set debug = "_dbg" %}
+{% endif %}
+{% if debug != '' %}
+  {% set variant = "cpython_dbg" %}
+{% else %}
+  {% set variant = "cpython" %}
+{% endif %}
+
+package:
+  name: pip
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/p/pip/pip-{{ version }}.tar.gz
+  sha256: 7db0c8ea4c7ea51c8049640e8e6e7fde949de672bfa4949920675563a5a6967f
+  patches:
+    - 0001-Win32-Fix-Py_DEBUG-determination-in-_derive_abi-in-w.patch
+
+build:
+  number: 3
+  disable_pip: True
+{% if 'conda-forge' in channel_targets %}
+  string: py{{ ''.join(python.split('.')[0:2]) }}h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}{{ debug }}
+{% endif %}
+  entry_points:
+    - pip = pip._internal.cli.main:main
+
+requirements:
+  build:
+    - patch  # [not win]
+    - m2-patch  # [win]
+    - m2-gcc-libs  # [win]
+  host:
+{% if 'conda-forge' in channel_targets %}
+    - python  {{python}}* *{{variant}}
+{% else %}
+    - python
+{% endif %}
+    - setuptools
+  run:
+{% if 'conda-forge' in channel_targets %}
+    - python  {{python}}* *{{variant}}
+{% else %}
+    - python
+{% endif %}
+    - setuptools
+    - wheel
+
+test:
+  commands:
+    - pip -h
+    - pip list
+  imports:
+    - pip
+
+about:
+  home: https://pip.pypa.io/en/stable/
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.txt
+  summary: PyPA recommended tool for installing Python packages
+  doc_url: https://pip.pypa.io/en/stable/
+  dev_url: https://github.com/pypa/pip
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - jjhelmus
+    - msarahan
+    - pelson
+    - ocefpaf
+    - mingwandroid

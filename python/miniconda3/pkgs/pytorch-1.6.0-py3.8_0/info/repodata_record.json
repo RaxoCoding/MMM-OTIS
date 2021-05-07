@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py3.8_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/pytorch/osx-64",
+  "constrains": [],
+  "depends": [
+    "blas * mkl",
+    "mkl >=2018",
+    "ninja",
+    "numpy >=1.11",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "pytorch-1.6.0-py3.8_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "355931c5b21ee03e4acc71f5262305e4",
+  "name": "pytorch",
+  "platform": "darwin",
+  "size": 57202621,
+  "subdir": "osx-64",
+  "timestamp": 1595636565750,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/pytorch/osx-64/pytorch-1.6.0-py3.8_0.tar.bz2",
+  "version": "1.6.0"
+}

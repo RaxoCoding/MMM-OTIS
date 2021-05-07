@@ -1,0 +1,64 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/8124bf06-e97d-4cbf-4c57-2889f59debd2/volume/rsync-recipes/lcms2-2.11-on-osx, last modified Fri Jun 26 13:40:34 2020
+# ------------------------------------------------
+
+package:
+    name: lcms2
+    version: '2.11'
+source:
+    sha256: dc49b9c8e4d7cdff376040571a722902b682a795bf92985a85b48854c270772e
+    url: https://ayera.dl.sourceforge.net/project/lcms/lcms/2.11/lcms2-2.11.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - lcms2 >=2.11,<3.0a0
+    string: h92f6f08_0
+requirements:
+    build:
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - ld64 450.3 h3c32e8a_4
+        - libcxx 10.0.0 1
+        - libllvm10 10.0.0 h21ff451_0
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_0
+        - make 4.2.1 h3efe00b_1
+        - tapi 1000.10.8 ha1b3eb9_0
+    host:
+        - jpeg 9b he5867d9_2
+        - libcxx 10.0.0 1
+        - libtiff 4.1.0 hcb84e12_1
+        - lz4-c 1.9.2 h0a44026_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+        - zstd 1.4.4 h1990bb4_3
+    run:
+        - jpeg >=9b,<10a
+        - libtiff >=4.1.0,<5.0a0
+test:
+    commands:
+        - test -f ${PREFIX}/include/lcms2.h
+        - test -f ${PREFIX}/lib/liblcms2.a
+        - test -f ${PREFIX}/lib/liblcms2${SHLIB_EXT}
+        - jpgicc
+        - tificc
+        - linkicc
+        - transicc
+        - psicc
+about:
+    home: http://www.littlecms.com/
+    license: MIT
+    license_family: MIT
+    license_file: COPYING
+    summary: Open Source Color Management Engine
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - hmaarrfk
+        - isuruf

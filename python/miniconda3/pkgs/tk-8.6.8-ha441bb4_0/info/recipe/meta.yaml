@@ -1,0 +1,75 @@
+# This file created by conda-build 3.13.0
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/0c6bdb40-20c4-4372-5062-20cfdec29623/volume/rsync-recipes/tk-8.6.8-on-osx, last modified Tue Aug 28 14:35:04 2018
+# ------------------------------------------------
+
+package:
+    name: tk
+    version: 8.6.8
+source:
+    -   folder: tcl8.6.8
+        sha256: c43cb0c1518ce42b00e7c8f6eaddd5195c53a98f94adc717234a65cbcfd3f96a
+        url: https://downloads.sourceforge.net/tcl/tcl8.6.8-src.tar.gz
+    -   folder: tk8.6.8
+        patches:
+            - patch-macosx-tkMacOSXXStubs.c.diff
+        sha256: 49e7bca08dde95195a27f594f7c850b088be357a7c7096e44e1158c7a5fd7b33
+        url: https://downloads.sourceforge.net/tcl/tk8.6.8-src.tar.gz
+build:
+    detect_binary_files_with_prefix: true
+    number: '0'
+    run_exports:
+        - tk >=8.6.8,<8.7.0a0
+    string: ha441bb4_0
+requirements:
+    build:
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_11
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+    host:
+        - zlib 1.2.11 hf3cbc9b_2
+    run:
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - test -f "${PREFIX}/bin/tclsh"
+        - test -f "${PREFIX}/bin/wish"
+        - test -f "${PREFIX}/bin/tclsh8.6"
+        - test -f "${PREFIX}/bin/wish8.6"
+        - test -f "${PREFIX}/include/tcl.h"
+        - test -f "${PREFIX}/include/tclDecls.h"
+        - test -f "${PREFIX}/include/tclPlatDecls.h"
+        - test -f "${PREFIX}/include/tclPlatDecls.h"
+        - test -f "${PREFIX}/include/tclTomMathDecls.h"
+        - test -f "${PREFIX}/include/tclTomMath.h"
+        - test -f "${PREFIX}/include/tk.h"
+        - test -f "${PREFIX}/include/tkDecls.h"
+        - test -f "${PREFIX}/include/tkPlatDecls.h"
+        - test -f "${PREFIX}/lib/libtcl8.6.dylib"
+        - test -f "${PREFIX}/lib/libtclstub8.6.a"
+        - test -f "${PREFIX}/lib/libtk8.6.dylib"
+        - test -f "${PREFIX}/lib/libtkstub8.6.a"
+        - tclsh hello.tcl
+        - tclsh8.6 hello.tcl
+    files:
+        - hello.tcl
+about:
+    home: http://www.tcl.tk/
+    license: Tcl/Tk
+    license_family: BSD
+    summary: A dynamic programming language with GUI support.  Bundles Tcl and Tk.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jjhelmus
+        - mingwandroid
+        - msarahan
+        - pelson

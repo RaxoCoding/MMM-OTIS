@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py38hecd8cb5_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "certifi >=2016.9.26",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "setuptools-50.3.1-py38hecd8cb5_1.conda",
+  "legacy_bz2_md5": "43cfaebadf8b858034601d1dfccdf19f",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "965d9abe79880614209f48b2a98efc31",
+  "name": "setuptools",
+  "platform": "darwin",
+  "sha256": "7db6267d3f69c97148d1ea6f51c23ea15036b9f1c2f35bb879c6d5dc3dad254a",
+  "size": 743381,
+  "subdir": "osx-64",
+  "timestamp": 1604771437417,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/setuptools-50.3.1-py38hecd8cb5_1.conda",
+  "version": "50.3.1"
+}

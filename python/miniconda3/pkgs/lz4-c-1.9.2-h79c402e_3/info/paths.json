@@ -1,0 +1,107 @@
+{
+  "paths": [
+    {
+      "_path": "bin/lz4",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/919652a4-9921-4726-6960-21b357cebc42/volume/lz4-c_1601566145440/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+      "sha256": "86fd4130f272bef91c95e31da74d7a94b8085da67f58d84f73ea855c097ace3c",
+      "size_in_bytes": 219944
+    },
+    {
+      "_path": "bin/lz4c",
+      "path_type": "softlink",
+      "sha256": "86fd4130f272bef91c95e31da74d7a94b8085da67f58d84f73ea855c097ace3c",
+      "size_in_bytes": 219944
+    },
+    {
+      "_path": "bin/lz4cat",
+      "path_type": "softlink",
+      "sha256": "86fd4130f272bef91c95e31da74d7a94b8085da67f58d84f73ea855c097ace3c",
+      "size_in_bytes": 219944
+    },
+    {
+      "_path": "bin/unlz4",
+      "path_type": "softlink",
+      "sha256": "86fd4130f272bef91c95e31da74d7a94b8085da67f58d84f73ea855c097ace3c",
+      "size_in_bytes": 219944
+    },
+    {
+      "_path": "include/lz4.h",
+      "path_type": "hardlink",
+      "sha256": "13dee89947a6e2adc051072861a0da1a938ee26d0fdf177777f8aba2a46fd435",
+      "size_in_bytes": 39943
+    },
+    {
+      "_path": "include/lz4frame.h",
+      "path_type": "hardlink",
+      "sha256": "85ec247097470f227ef27d6291a49fe475d0d779d67679b72dfd8d38a102a395",
+      "size_in_bytes": 28657
+    },
+    {
+      "_path": "include/lz4frame_static.h",
+      "path_type": "hardlink",
+      "sha256": "1662c6453229a8d65bfa349b9cd3c01d1fee440ada16a8e99a7083d6cb08a4c0",
+      "size_in_bytes": 2044
+    },
+    {
+      "_path": "include/lz4hc.h",
+      "path_type": "hardlink",
+      "sha256": "12d5d9424059d5b6d7570e7a3cb54ed6e8b4b5ed5bb51977bb150c68c056f228",
+      "size_in_bytes": 21357
+    },
+    {
+      "_path": "lib/liblz4.1.9.2.dylib",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/919652a4-9921-4726-6960-21b357cebc42/volume/lz4-c_1601566145440/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+      "sha256": "709e175e19e4629fd6363e63ffa54991826a7a56bcf59e9e01f6daa3a8a4b76f",
+      "size_in_bytes": 163836
+    },
+    {
+      "_path": "lib/liblz4.1.dylib",
+      "path_type": "softlink",
+      "sha256": "709e175e19e4629fd6363e63ffa54991826a7a56bcf59e9e01f6daa3a8a4b76f",
+      "size_in_bytes": 163836
+    },
+    {
+      "_path": "lib/liblz4.dylib",
+      "path_type": "softlink",
+      "sha256": "709e175e19e4629fd6363e63ffa54991826a7a56bcf59e9e01f6daa3a8a4b76f",
+      "size_in_bytes": 163836
+    },
+    {
+      "_path": "lib/pkgconfig/liblz4.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/concourse/worker/volumes/live/919652a4-9921-4726-6960-21b357cebc42/volume/lz4-c_1601566145440/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+      "sha256": "098025a64e931e9e2bf8697697ea34ec07361dee6f8fe868dd59f93324c77da1",
+      "size_in_bytes": 1632
+    },
+    {
+      "_path": "share/man/man1/lz4.1",
+      "path_type": "hardlink",
+      "sha256": "22796ed3ff4fa56da7fee26a4e5f8407bb758f99183a3283cfd1a93c68373017",
+      "size_in_bytes": 9077
+    },
+    {
+      "_path": "share/man/man1/lz4c.1",
+      "path_type": "softlink",
+      "sha256": "22796ed3ff4fa56da7fee26a4e5f8407bb758f99183a3283cfd1a93c68373017",
+      "size_in_bytes": 9077
+    },
+    {
+      "_path": "share/man/man1/lz4cat.1",
+      "path_type": "softlink",
+      "sha256": "22796ed3ff4fa56da7fee26a4e5f8407bb758f99183a3283cfd1a93c68373017",
+      "size_in_bytes": 9077
+    },
+    {
+      "_path": "share/man/man1/unlz4.1",
+      "path_type": "softlink",
+      "sha256": "22796ed3ff4fa56da7fee26a4e5f8407bb758f99183a3283cfd1a93c68373017",
+      "size_in_bytes": 9077
+    }
+  ],
+  "paths_version": 1
+}

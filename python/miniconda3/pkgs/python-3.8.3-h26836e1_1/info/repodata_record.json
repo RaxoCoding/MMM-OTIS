@@ -1,0 +1,30 @@
+{
+  "build": "h26836e1_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libffi >=3.3,<3.4.0a0",
+    "ncurses >=6.2,<7.0a0",
+    "openssl >=1.1.1g,<1.1.2a",
+    "readline >=8.0,<9.0a0",
+    "sqlite >=3.31.1,<4.0a0",
+    "tk >=8.6.8,<8.7.0a0",
+    "xz >=5.2.5,<6.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "python-3.8.3-h26836e1_1.conda",
+  "legacy_bz2_md5": "861f914a2b6e8c2808829fbca2ab55f8",
+  "legacy_bz2_size": 26242714,
+  "license": "PSF",
+  "md5": "9bec5db91747b86ad9fd16c839db164f",
+  "name": "python",
+  "sha256": "ea4387528fd4c08de90e1b0273f1b018cf9680369bd9aeaf92840e12d5c678b9",
+  "size": 21592128,
+  "subdir": "osx-64",
+  "timestamp": 1589914959179,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/python-3.8.3-h26836e1_1.conda",
+  "version": "3.8.3"
+}

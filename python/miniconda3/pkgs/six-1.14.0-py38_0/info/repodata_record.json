@@ -1,0 +1,24 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "features": "",
+  "fn": "six-1.14.0-py38_0.conda",
+  "legacy_bz2_md5": "85a7ca693a2793bc77bc09f25beaa6d0",
+  "legacy_bz2_size": 27548,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "f5cac45152c53b9f62758ce06ecbaa64",
+  "name": "six",
+  "sha256": "9c6691545427e0160c415caa647e61c69b60446c20a15c60184a7a578202f506",
+  "size": 26929,
+  "subdir": "osx-64",
+  "timestamp": 1580150235358,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/six-1.14.0-py38_0.conda",
+  "version": "1.14.0"
+}

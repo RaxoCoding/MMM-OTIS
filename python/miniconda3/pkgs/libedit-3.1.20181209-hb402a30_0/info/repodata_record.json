@@ -1,0 +1,24 @@
+{
+  "build": "hb402a30_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "ncurses >=6.1,<7.0a0"
+  ],
+  "features": "",
+  "fn": "libedit-3.1.20181209-hb402a30_0.conda",
+  "legacy_bz2_md5": "cd44371a880fac87ea047c33f8000d4e",
+  "legacy_bz2_size": 162411,
+  "license": "NetBSD",
+  "license_family": "BSD",
+  "md5": "53e7716c9a7a4258f69c866773144c9a",
+  "name": "libedit",
+  "sha256": "b65fe3b47bb8ddb306b36eb26e32f2243bb4646779990b3e31ac77350afae8d1",
+  "size": 138761,
+  "subdir": "osx-64",
+  "timestamp": 1547971396177,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libedit-3.1.20181209-hb402a30_0.conda",
+  "version": "3.1.20181209"
+}

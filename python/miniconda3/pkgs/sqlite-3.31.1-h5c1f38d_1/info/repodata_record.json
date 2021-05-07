@@ -1,0 +1,25 @@
+{
+  "build": "h5c1f38d_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libedit >=3.1.20181209,<3.2.0a0",
+    "ncurses >=6.2,<7.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "sqlite-3.31.1-h5c1f38d_1.conda",
+  "legacy_bz2_md5": "676fab9571c17e3d1d89b514f057f90e",
+  "legacy_bz2_size": 2561251,
+  "license": "Public-Domain (http://www.sqlite.org/copyright.html)",
+  "md5": "afd2c59515febcad812e8fcd3eb683b6",
+  "name": "sqlite",
+  "sha256": "619db7c86fbe9614a89e3aed39deb9721ff286d37150f7b0d730370850daa906",
+  "size": 1313664,
+  "subdir": "osx-64",
+  "timestamp": 1587498972450,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/sqlite-3.31.1-h5c1f38d_1.conda",
+  "version": "3.31.1"
+}

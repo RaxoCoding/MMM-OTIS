@@ -1,0 +1,97 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/72dce93f-e46d-4d06-742d-8f6d58a4f868/volume/rsync-recipes/zstd-1.4.5-on-osx, last modified Thu Jun 25 16:52:14 2020
+# ------------------------------------------------
+
+package:
+    name: zstd
+    version: 1.4.5
+source:
+    fn: zstd-1.4.5.tar.gz
+    patches:
+        - 2162.patch
+    sha256: 98e91c7c6bf162bf90e4e70fdbc41a8188b9fa8de5ad840c401198014406ce9e
+    url: https://github.com/facebook/zstd/releases/download/v1.4.5/zstd-1.4.5.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - zstd >=1.4.5,<1.4.6.0a0
+    string: h41d2c2f_0
+requirements:
+    build:
+        - bzip2 1.0.8 h1de35cc_0
+        - ca-certificates 2020.1.1 0
+        - cctools 927.0.2 h5ba7a2e_4
+        - clang 10.0.0 default_hf57f61e_0
+        - clang_osx-64 10.0.0 h05bbb7f_1
+        - clangxx 10.0.0 default_hf57f61e_0
+        - clangxx_osx-64 10.0.0 h05bbb7f_1
+        - cmake 3.14.0 haff7e42_0
+        - compiler-rt 10.0.0 h47ead80_0
+        - compiler-rt_osx-64 10.0.0 hbcc88fd_0
+        - expat 2.2.9 hb1e8313_2
+        - krb5 1.17.1 hddcf347_0
+        - ld64 450.3 h3c32e8a_4
+        - libcurl 7.69.1 h051b688_0
+        - libcxx 10.0.0 1
+        - libedit 3.1.20191231 haf1e3a3_0
+        - libllvm10 10.0.0 h21ff451_0
+        - libssh2 1.9.0 ha12b0ac_1
+        - llvm-openmp 10.0.0 h28b9765_0
+        - llvm-tools 10.0.0 h21ff451_0
+        - make 4.2.1 h3efe00b_1
+        - ncurses 6.2 h0a44026_1
+        - openssl 1.1.1g h1de35cc_0
+        - rhash 1.3.8 ha12b0ac_0
+        - tapi 1000.10.8 ha1b3eb9_0
+        - tk 8.6.10 hb0a8c7a_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    host:
+        - libcxx 10.0.0 1
+        - lz4-c 1.9.2 h0a44026_0
+        - xz 5.2.5 h1de35cc_0
+        - zlib 1.2.11 h1de35cc_3
+    run:
+        - libcxx >=10.0.0
+        - lz4-c >=1.9.2,<1.10.0a0
+        - xz >=5.2.5,<6.0a0
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - zstd -be -i5
+        - test -f ${PREFIX}/include/zstd.h
+        - test -f ${PREFIX}/lib/libzstd.a
+        - test -f ${PREFIX}/lib/libzstd.dylib
+        - export PKG_CONFIG_PATH=$PREFIX/lib/pkgconfig
+        - test -f ${PREFIX}/lib/pkgconfig/libzstd.pc
+        - pkg-config --cflags libzstd
+    requires:
+        - pkg-config
+about:
+    description: 'Zstandard is a real-time compression algorithm, providing high compression
+
+        ratios. It offers a very wide range of compression / speed trade-off, while
+
+        being backed by a very fast decoder. It also offers a special mode for
+
+        small data, called dictionary compression, and can create dictionaries from
+
+        any sample set. Zstandard library is provided as open source software using
+
+        a BSD license.
+
+        '
+    dev_url: https://github.com/facebook/zstd
+    doc_url: https://facebook.github.io/zstd/zstd_manual.html
+    home: http://www.zstd.net
+    license: BSD 3-Clause
+    license_file: LICENSE
+    summary: Zstandard - Fast real-time compression algorithm
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - msarahan
+        - rmax
+        - xhochy

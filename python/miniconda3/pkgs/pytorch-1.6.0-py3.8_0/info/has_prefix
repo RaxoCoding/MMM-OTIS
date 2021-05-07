@@ -1,0 +1,2 @@
+/opt/anaconda1anaconda2anaconda3 text bin/convert-caffe2-to-onnx
+/opt/anaconda1anaconda2anaconda3 text bin/convert-onnx-to-caffe2

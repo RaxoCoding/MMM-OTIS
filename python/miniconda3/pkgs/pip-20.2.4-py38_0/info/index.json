@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py38_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "setuptools",
+    "wheel"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "pip",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "timestamp": 1603217558314,
+  "version": "20.2.4"
+}

@@ -1,0 +1,11 @@
+#!/opt/concourse/worker/volumes/live/1caa9cf6-943c-4e87-7f1a-4871a460e0d7/volume/conda-package-handling_1588797761919/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/python
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from conda_package_handling.cli import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

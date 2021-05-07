@@ -1,0 +1,69 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /opt/concourse/worker/volumes/live/1e6d7939-f5f9-4eee-6d12-a555950f769e/volume/rsync-recipes/readline-8.0-on-osx, last modified Thu Feb 13 10:33:30 2020
+# ------------------------------------------------
+
+package:
+    name: readline
+    version: '8.0'
+source:
+    sha256: e339f51971478d369f8a053a330a190781acb9864cf4c541060f12078948e461
+    url: ftp://ftp.gnu.org/gnu/readline/readline-8.0.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - readline >=8.0,<9.0a0
+    string: h1de35cc_0
+requirements:
+    build:
+        - cctools 895 1
+        - clang 4.0.1 1
+        - clang_osx-64 4.0.1 h1ce6c1d_18
+        - compiler-rt 4.0.1 hcfea43d_1
+        - ld64 274.2 1
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - libiconv 1.15 hdd342a3_7
+        - llvm 4.0.1 1
+        - llvm-lto-tapi 4.0.1 1
+        - make 4.2.1 h3efe00b_1
+        - pkg-config 0.29.2 h3efe00b_8
+    host:
+        - libcxx 4.0.1 hcfea43d_1
+        - libcxxabi 4.0.1 hcfea43d_1
+        - ncurses 6.1 h0a44026_1
+    run:
+        - ncurses >=6.1,<7.0a0
+test:
+    commands:
+        - test -f ${PREFIX}/lib/libreadline.a
+        - test -f ${PREFIX}/lib/libreadline${SHLIB_EXT}
+        - test -f ${PREFIX}/lib/libhistory.a
+        - test -f ${PREFIX}/lib/libhistory${SHLIB_EXT}
+about:
+    description: 'The standard Python readline extension statically linked against
+        the GNU
+
+        readline library.
+
+        '
+    dev_url: https://github.com/ludwigschwardt/python-gnureadline
+    doc_source_url: https://github.com/ludwigschwardt/python-gnureadline
+    doc_url: https://pypi.python.org/pypi/readline
+    home: https://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
+    license: GPL-3.0
+    license_file: COPYING
+    summary: library for editing command lines as they are typed in
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - asmeurer
+        - croth1
+        - jakirkham
+        - jjhelmus
+        - mingwandroid
+        - msarahan
+        - msarahan
+        - ocefpaf
+        - pelson

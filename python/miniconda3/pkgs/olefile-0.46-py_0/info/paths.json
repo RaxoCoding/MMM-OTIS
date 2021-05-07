@@ -1,0 +1,53 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/olefile-0.46.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/olefile-0.46.dist-info/LICENSE.txt",
+      "path_type": "hardlink",
+      "sha256": "04488d55ea9ac2a18400f61adc6421b5881705a943693bc7c0d9b3364dc10f39",
+      "size_in_bytes": 2902
+    },
+    {
+      "_path": "site-packages/olefile-0.46.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "6543f039a4613a62bee5e35ee159857214ed9a3bb257cf5cea8afad367d8a557",
+      "size_in_bytes": 9667
+    },
+    {
+      "_path": "site-packages/olefile-0.46.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "ebd28b95eb207ee654a8c14a4fd2c705ba71f6b9f4cf96d6a7bde801ff19da7a",
+      "size_in_bytes": 724
+    },
+    {
+      "_path": "site-packages/olefile-0.46.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "site-packages/olefile-0.46.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "bad496e3f9cfa7eaf2b510fb56f312fbc812a7d05498a6110cd7757b1f50da4b",
+      "size_in_bytes": 8
+    },
+    {
+      "_path": "site-packages/olefile/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "5e81aec95ac09c993ad53fcfd93b3a6f67f1d1ff0bfee49214cabcfe51f0c17a",
+      "size_in_bytes": 995
+    },
+    {
+      "_path": "site-packages/olefile/olefile.py",
+      "path_type": "hardlink",
+      "sha256": "e8e1a9ee52dca783b7e8e6fff9d344e18926fafefd4ce48e41f03b2d4725c47e",
+      "size_in_bytes": 105311
+    }
+  ],
+  "paths_version": 1
+}

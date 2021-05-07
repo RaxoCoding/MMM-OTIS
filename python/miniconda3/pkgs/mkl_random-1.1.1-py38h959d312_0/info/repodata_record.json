@@ -1,0 +1,29 @@
+{
+  "arch": "x86_64",
+  "build": "py38h959d312_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10.0.0",
+    "mkl >=2019.4,<2020.0a0",
+    "mkl-service >=2,<3.0a0",
+    "numpy >=1.14,<2.0a0",
+    "python >=3.8,<3.9.0a0",
+    "blas * mkl"
+  ],
+  "features": "",
+  "fn": "mkl_random-1.1.1-py38h959d312_0.conda",
+  "legacy_bz2_md5": "62b3aac5796665dc0f7b3b38a925d319",
+  "license": "BSD 3-Clause",
+  "md5": "625f1b65b2bb407c7e1f4a768ab1933d",
+  "name": "mkl_random",
+  "platform": "darwin",
+  "sha256": "c8f8cbd7e0f03dad090e1dc87e83927b99aec8f42f61b3e0a0343db8886d2d10",
+  "size": 297332,
+  "subdir": "osx-64",
+  "timestamp": 1590534019534,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/mkl_random-1.1.1-py38h959d312_0.conda",
+  "version": "1.1.1"
+}

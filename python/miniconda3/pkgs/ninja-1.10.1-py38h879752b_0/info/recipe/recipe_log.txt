@@ -1,0 +1,117 @@
+commit 5194af92468b8baf804da715ecc7830df6972f8d
+Author: Megan Yancy <myancy@anaconda.com>
+Date:   Wed Jul 29 14:56:59 2020 -0500
+
+    updated to 1.10.0
+
+commit 81a459403b8612d44f6d32e51cfcf4489c134d1c
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Mar 27 03:54:40 2019 -0500
+
+    Bump version to 1.9.0
+
+commit 7c57834b1616771d106a2f11e84d41a40d98b31f
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Sun May 6 03:26:53 2018 +0100
+
+    Stop the silliness around building only for Python 2.7
+    
+    That prevents using it as a build dependency for anything that needs another Python as a build dependency.
+    
+    And also, Python-enabled Ninja seems like something very very few people would ever use. It just
+    outputs build logs to a webserver so we should probably just remove this altogether.
+
+commit 83edea830e79b2598625647946878babe46fd560
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Feb 28 13:19:00 2018 -0600
+
+    Make sure $PREFIX/bin exists before copying
+
+commit 9866ae4208cef9c11187081e3ee7529be9776886
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Feb 28 13:18:27 2018 -0600
+
+    Make recipe CB3 compatible
+
+commit b725588ae13855461e472cb28e2047511e783814
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Wed Feb 28 13:17:59 2018 -0600
+
+    Update about section
+
+commit 654507f00392f4b45e8e010a285b74ab921e4688
+Merge: 79c1ee2 771e7c9
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Sep 22 04:53:51 2017 -0400
+
+    Merge pull request #5 from Korijn/versionbump
+    
+    Bump to v1.8.2 & rerender
+
+commit 771e7c9e9be27c5cfcac167ed0a3bae927d0259d
+Author: Korijn van Golen <k.vangolen@clinicalgraphics.com>
+Date:   Fri Sep 22 10:15:33 2017 +0200
+
+    MNT: Re-rendered with conda-smithy 2.4.2
+
+commit e361a0f1c7174ec1fd1319a47345a3b139de769b
+Author: Korijn van Golen <k.vangolen@clinicalgraphics.com>
+Date:   Fri Sep 22 10:10:29 2017 +0200
+
+    bumped ninja to v1.8.2
+
+commit 79c1ee22476a7946a99ab0672ecaa1cef5f6ac8c
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:22:02 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit d8d2166a4df31345892bb2eb636f83ca626036fc
+Author: Vlad Frolov <frolvlad@gmail.com>
+Date:   Tue Mar 7 18:40:24 2017 +0200
+
+    Release 1.7.2
+
+commit cd6a9346941ae35f912e73c9aa134f4c93f6d0d9
+Author: Vlad Frolov <frolvlad@gmail.com>
+Date:   Tue Mar 7 18:31:04 2017 +0200
+
+    MNT: Re-rendered with conda-smithy 2.1.1
+
+commit 9a6862da193b5ae5416efc078ba242e5e956011c
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Jun 28 02:06:36 2016 -0400
+
+    recipe: Bump to 1.7.1 (#2)
+
+commit b3e8279e0ca52aae313dcf3de6e7f68d7530caa7
+Author: Automatic conda-forge administrator <pelson.pub+conda-forge@gmail.com>
+Date:   Sat May 14 07:05:25 2016 +0100
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3. (#1)
+    
+    [ci skip]
+
+commit 517961b3542638947d43e5e2164d50b93d53dfc1
+Author: Vlad Frolov <frolvlad@gmail.com>
+Date:   Sun Apr 10 13:39:10 2016 +0700
+
+    Fixed other references to the project home page and sources repo
+
+commit fa9daa35a4891eeb50c0b6c708dde08d6c28f7e3
+Author: Vlad Frolov <frolvlad@gmail.com>
+Date:   Sun Apr 10 13:22:22 2016 +0700
+
+    Updated the home page link
+
+commit 8c66b93b2f1f349e5a82bf4e8176d2d436431fd8
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Apr 9 15:08:56 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 01813210885fe263413dfd901615ce2c20050f42
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Apr 9 15:08:13 2016 +0000
+
+    Initial commit of the ninja feedstock.
