@@ -1,8 +1,0 @@
-$Env:CONDA_EXE = "/opt/concourse/worker/volumes/live/154411f3-d48f-4a09-5dc8-199c488b22f9/volume/conda_1602695642128/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/conda"
-$Env:_CE_M = ""
-$Env:_CE_CONDA = ""
-$Env:_CONDA_ROOT = "/opt/concourse/worker/volumes/live/154411f3-d48f-4a09-5dc8-199c488b22f9/volume/conda_1602695642128/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold"
-$Env:_CONDA_EXE = "/opt/concourse/worker/volumes/live/154411f3-d48f-4a09-5dc8-199c488b22f9/volume/conda_1602695642128/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/conda"
-
-Import-Module "$Env:_CONDA_ROOT\shell\condabin\Conda.psm1"
-Add-CondaEnvironmentToPrompt

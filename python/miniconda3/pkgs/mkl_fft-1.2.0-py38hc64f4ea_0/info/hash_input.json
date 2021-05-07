@@ -1,8 +1,0 @@
-{
-  "numpy": "1.14",
-  "c_compiler_version": "10",
-  "cxx_compiler": "clangxx",
-  "cxx_compiler_version": "10",
-  "mkl": "2019",
-  "c_compiler": "clang"
-}

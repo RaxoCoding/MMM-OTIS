@@ -1,9 +1,0 @@
-{
-  "tk": "8.6",
-  "libtiff": "4.1",
-  "c_compiler_version": "10",
-  "jpeg": "9",
-  "freetype": "2.10",
-  "zlib": "1.2",
-  "c_compiler": "clang"
-}

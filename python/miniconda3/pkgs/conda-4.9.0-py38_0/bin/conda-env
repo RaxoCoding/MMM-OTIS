@@ -1,7 +1,0 @@
-#!/opt/concourse/worker/volumes/live/154411f3-d48f-4a09-5dc8-199c488b22f9/volume/conda_1602695642128/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/python
-# -*- coding: utf-8 -*-
-import sys
-
-if __name__ == '__main__':
-    from conda_env.cli.main import main
-    sys.exit(main())

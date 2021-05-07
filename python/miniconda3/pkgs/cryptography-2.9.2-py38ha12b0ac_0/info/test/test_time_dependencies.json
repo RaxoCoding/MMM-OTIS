@@ -1,1 +1,0 @@
-["hypothesis", "pretend", "pytest", "cryptography-vectors 2.9.2.*", "iso8601", "pytz"]
